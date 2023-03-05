@@ -1,0 +1,22 @@
+stages:
+  get_data:
+    cmd: python3 src/stage_01_get_data.py --config=config.yaml
+    deps:
+      - src/stage_01_get_data.py
+      - utils.py
+      - config.yaml
+    outs:
+      - artifacts/data/stack_overflow_queries.xml
+
+  prepare_data:
+    cmd: python3 src/stage_02_prepare.py --config=config.yaml --params=params.yaml
+    deps:
+      - src/stage_02_prepare.py
+      - utils.py
+      - config.yaml
+    params: 
+      - train_test.seed
+      - train_test.split
+    outs:
+      - artifacts/prepared/train.tsv
+      - artifacts/prepared/test.tsv

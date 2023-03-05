@@ -1,0 +1,17 @@
+get_data_rapid_api: python3 get_data.py
+
+RapidApi:
+  api_url: https://stackoverflow_query.p.rapidapi.com/json_data
+  api_header_key: c12a4fcf8emshf19712541926cdcp19ec27jsn683bd634421e
+  api_header_host: stackoverflow_query.p.rapidapi.com
+  
+
+artifacts:
+  ARTIFACTS_DIR: artifacts
+  PREPARED_DATA: prepared
+  TRAIN_DATA: train.tsv
+  TEST_DATA: test.tsv
+
+source_download_dir:
+  download_dir: data
+  data_file: stack_overflow_queries.xml

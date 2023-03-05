@@ -1,0 +1,12 @@
+train_test:
+  split: 0.3
+  seed: 2122
+
+featurize:
+  max_featurize: 2500
+  ngrams: 2
+
+train:
+  seed: 2021
+  n_est: 120
+  min_split: 16
