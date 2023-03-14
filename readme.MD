@@ -10,3 +10,14 @@ deactivate
 
 
 pip install -r requirements.txt
+
+
+running pipeline
+
+
+pip install awscli
+aws configure
+attach access_key,secret_access_key
+data_to_s3.py----> s3 bucket,iam role 
+
+
