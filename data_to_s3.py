@@ -61,6 +61,6 @@ class DataDumpS3:
                 return "Data failed to store in s3 bucket"
 
 if __name__=="__main__":
-    DataDumpS3("main_data").dump_data()
+    print(DataDumpS3("main_data").dump_data())
 
     

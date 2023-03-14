@@ -10,8 +10,11 @@ import yaml
 import re
 import tqdm
 from xml.etree import ElementTree as ET
-
-
+import pandas as pd
+import scipy.sparse as sparse
+import joblib
+import logging
+import numpy as np
 
 #convert the xml data to the json data
 def convert_xml_to_json(file_path):
@@ -70,3 +73,25 @@ def read_yaml(config_path):
         return config_data
     except Exception as e:
         raise e
+    
+
+
+def get_df(path_to_data: str, sep: str="\t") -> pd.DataFrame:
+    df = pd.read_csv(
+        path_to_data, 
+        encoding="utf-8",
+        header=None,
+        delimiter=sep,
+        names=["id", "label", "text"]
+    )
+    return df
+
+def save_matrix(df, matrix, out_path):
+    id_matrix = sparse.csr_matrix(df.id.astype(np.int64)).T
+    label_matrix = sparse.csr_matrix(df.label.astype(np.int64)).T
+
+    result = sparse.hstack([id_matrix, label_matrix, matrix], format="csr")
+
+    joblib.dump(result, out_path)
+    msg = f"The output matrix saved at: {out_path} of the size: {result.shape} and data type: {result.dtype}"
+    logging.info(msg)
