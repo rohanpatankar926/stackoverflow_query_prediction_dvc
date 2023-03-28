@@ -48,3 +48,7 @@ git commit -m "message"
 git remote add origin git_url 
 git checkout -b branch_name
 git push origin branch_name
+
+
+### 3rd component deployment
+dvc plots show 
