@@ -1,0 +1,6164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>DVC Plot</title>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.18.2"></script>
+    
+    <style>
+        table {
+            border-spacing: 15px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id = "prc_json">
+        <script type = "text/javascript">
+            var spec = {
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+        "values": [
+    {
+        "precision": 0.016646690637901185,
+        "recall": 1.0,
+        "rev": "workspace",
+        "threshold": 0.0
+    },
+    {
+        "precision": 0.0228310502283105,
+        "recall": 1.0,
+        "rev": "workspace",
+        "threshold": 0.0008796296296296296
+    },
+    {
+        "precision": 0.023522770041400076,
+        "recall": 1.0,
+        "rev": "workspace",
+        "threshold": 0.001126984126984127
+    },
+    {
+        "precision": 0.02425300737291424,
+        "recall": 1.0,
+        "rev": "workspace",
+        "threshold": 0.0013087606837606837
+    },
+    {
+        "precision": 0.02479666732791113,
+        "recall": 1.0,
+        "rev": "workspace",
+        "threshold": 0.001538231780167264
+    },
+    {
+        "precision": 0.02536525974025974,
+        "recall": 1.0,
+        "rev": "workspace",
+        "threshold": 0.0017105263157894738
+    },
+    {
+        "precision": 0.02581577860388269,
+        "recall": 1.0,
+        "rev": "workspace",
+        "threshold": 0.001884920634920635
+    },
+    {
+        "precision": 0.02612330198537095,
+        "recall": 1.0,
+        "rev": "workspace",
+        "threshold": 0.0020404271548436306
+    },
+    {
+        "precision": 0.026652452025586353,
+        "recall": 1.0,
+        "rev": "workspace",
+        "threshold": 0.0022083097528768155
+    },
+    {
+        "precision": 0.02704456945045435,
+        "recall": 1.0,
+        "rev": "workspace",
+        "threshold": 0.002361111111111111
+    },
+    {
+        "precision": 0.027496700395952485,
+        "recall": 1.0,
+        "rev": "workspace",
+        "threshold": 0.0025631313131313136
+    },
+    {
+        "precision": 0.027889335118250782,
+        "recall": 1.0,
+        "rev": "workspace",
+        "threshold": 0.0027232588159361608
+    },
+    {
+        "precision": 0.028486782133090246,
+        "recall": 1.0,
+        "rev": "workspace",
+        "threshold": 0.0028739778739778742
+    },
+    {
+        "precision": 0.028821766197832603,
+        "recall": 1.0,
+        "rev": "workspace",
+        "threshold": 0.003030545843045843
+    },
+    {
+        "precision": 0.029171528588098017,
+        "recall": 1.0,
+        "rev": "workspace",
+        "threshold": 0.003233618233618234
+    },
+    {
+        "precision": 0.029691211401425176,
+        "recall": 1.0,
+        "rev": "workspace",
+        "threshold": 0.0033793902176255117
+    },
+    {
+        "precision": 0.03013500482160077,
+        "recall": 1.0,
+        "rev": "workspace",
+        "threshold": 0.0035771246297562087
+    },
+    {
+        "precision": 0.030480370641306997,
+        "recall": 1.0,
+        "rev": "workspace",
+        "threshold": 0.00374068655802402
+    },
+    {
+        "precision": 0.03087182020251914,
+        "recall": 1.0,
+        "rev": "workspace",
+        "threshold": 0.003881766381766382
+    },
+    {
+        "precision": 0.031273455091318486,
+        "recall": 1.0,
+        "rev": "workspace",
+        "threshold": 0.00405982905982906
+    },
+    {
+        "precision": 0.03209242618741977,
+        "recall": 1.0,
+        "rev": "workspace",
+        "threshold": 0.004244978333213628
+    },
+    {
+        "precision": 0.03250130005200208,
+        "recall": 1.0,
+        "rev": "workspace",
+        "threshold": 0.004409801678108314
+    },
+    {
+        "precision": 0.03274359651439134,
+        "recall": 0.992,
+        "rev": "workspace",
+        "threshold": 0.004589371980676328
+    },
+    {
+        "precision": 0.03322615219721329,
+        "recall": 0.992,
+        "rev": "workspace",
+        "threshold": 0.004772727272727272
+    },
+    {
+        "precision": 0.03369565217391304,
+        "recall": 0.992,
+        "rev": "workspace",
+        "threshold": 0.005019633144633145
+    },
+    {
+        "precision": 0.03416919261504547,
+        "recall": 0.992,
+        "rev": "workspace",
+        "threshold": 0.005239400584795321
+    },
+    {
+        "precision": 0.034636871508379886,
+        "recall": 0.992,
+        "rev": "workspace",
+        "threshold": 0.0054487179487179484
+    },
+    {
+        "precision": 0.03543869677050586,
+        "recall": 0.992,
+        "rev": "workspace",
+        "threshold": 0.005722840755735492
+    },
+    {
+        "precision": 0.03574542284219703,
+        "recall": 0.984,
+        "rev": "workspace",
+        "threshold": 0.006015037593984962
+    },
+    {
+        "precision": 0.03635826189772391,
+        "recall": 0.984,
+        "rev": "workspace",
+        "threshold": 0.006263528138528139
+    },
+    {
+        "precision": 0.0369036903690369,
+        "recall": 0.984,
+        "rev": "workspace",
+        "threshold": 0.0064863445378151256
+    },
+    {
+        "precision": 0.03755725190839695,
+        "recall": 0.984,
+        "rev": "workspace",
+        "threshold": 0.006752136752136752
+    },
+    {
+        "precision": 0.038186898478733314,
+        "recall": 0.984,
+        "rev": "workspace",
+        "threshold": 0.0069925036180518655
+    },
+    {
+        "precision": 0.03876457611093602,
+        "recall": 0.984,
+        "rev": "workspace",
+        "threshold": 0.00728021978021978
+    },
+    {
+        "precision": 0.03934740882917467,
+        "recall": 0.984,
+        "rev": "workspace",
+        "threshold": 0.007506297308928888
+    },
+    {
+        "precision": 0.03966189856957087,
+        "recall": 0.976,
+        "rev": "workspace",
+        "threshold": 0.007765151515151516
+    },
+    {
+        "precision": 0.04030393128510076,
+        "recall": 0.976,
+        "rev": "workspace",
+        "threshold": 0.008052566895704152
+    },
+    {
+        "precision": 0.04279200280603297,
+        "recall": 0.976,
+        "rev": "workspace",
+        "threshold": 0.008356886169386171
+    },
+    {
+        "precision": 0.04360257326661901,
+        "recall": 0.976,
+        "rev": "workspace",
+        "threshold": 0.008715277777777778
+    },
+    {
+        "precision": 0.04475421863536317,
+        "recall": 0.976,
+        "rev": "workspace",
+        "threshold": 0.009024122807017544
+    },
+    {
+        "precision": 0.04591644712081295,
+        "recall": 0.976,
+        "rev": "workspace",
+        "threshold": 0.009292929292929294
+    },
+    {
+        "precision": 0.04646697388632873,
+        "recall": 0.968,
+        "rev": "workspace",
+        "threshold": 0.009519772990167727
+    },
+    {
+        "precision": 0.04720692368214005,
+        "recall": 0.96,
+        "rev": "workspace",
+        "threshold": 0.00984848484848485
+    },
+    {
+        "precision": 0.04823151125401929,
+        "recall": 0.96,
+        "rev": "workspace",
+        "threshold": 0.010096330802852542
+    },
+    {
+        "precision": 0.049099836333878884,
+        "recall": 0.96,
+        "rev": "workspace",
+        "threshold": 0.010396825396825399
+    },
+    {
+        "precision": 0.05025125628140704,
+        "recall": 0.96,
+        "rev": "workspace",
+        "threshold": 0.010697496947496946
+    },
+    {
+        "precision": 0.05128205128205128,
+        "recall": 0.96,
+        "rev": "workspace",
+        "threshold": 0.011022010397010397
+    },
+    {
+        "precision": 0.05223880597014925,
+        "recall": 0.952,
+        "rev": "workspace",
+        "threshold": 0.011298076923076923
+    },
+    {
+        "precision": 0.053243847874720356,
+        "recall": 0.952,
+        "rev": "workspace",
+        "threshold": 0.011579962308223177
+    },
+    {
+        "precision": 0.054337899543379,
+        "recall": 0.952,
+        "rev": "workspace",
+        "threshold": 0.011898578144708178
+    },
+    {
+        "precision": 0.05516596540439458,
+        "recall": 0.944,
+        "rev": "workspace",
+        "threshold": 0.012158139364661107
+    },
+    {
+        "precision": 0.05681271064034665,
+        "recall": 0.944,
+        "rev": "workspace",
+        "threshold": 0.012521929824561403
+    },
+    {
+        "precision": 0.05801376597836775,
+        "recall": 0.944,
+        "rev": "workspace",
+        "threshold": 0.012862397021879779
+    },
+    {
+        "precision": 0.05876443997990959,
+        "recall": 0.936,
+        "rev": "workspace",
+        "threshold": 0.01327876984126984
+    },
+    {
+        "precision": 0.06018518518518518,
+        "recall": 0.936,
+        "rev": "workspace",
+        "threshold": 0.01371933621933622
+    },
+    {
+        "precision": 0.06167633104902478,
+        "recall": 0.936,
+        "rev": "workspace",
+        "threshold": 0.01407203907203907
+    },
+    {
+        "precision": 0.06307277628032346,
+        "recall": 0.936,
+        "rev": "workspace",
+        "threshold": 0.014511784511784512
+    },
+    {
+        "precision": 0.06464088397790055,
+        "recall": 0.936,
+        "rev": "workspace",
+        "threshold": 0.014920691881218195
+    },
+    {
+        "precision": 0.06643952299829642,
+        "recall": 0.936,
+        "rev": "workspace",
+        "threshold": 0.015324361628709456
+    },
+    {
+        "precision": 0.06826137689614936,
+        "recall": 0.936,
+        "rev": "workspace",
+        "threshold": 0.015808602327624065
+    },
+    {
+        "precision": 0.0701018573996405,
+        "recall": 0.936,
+        "rev": "workspace",
+        "threshold": 0.01626991694211374
+    },
+    {
+        "precision": 0.07267080745341616,
+        "recall": 0.936,
+        "rev": "workspace",
+        "threshold": 0.016853632478632478
+    },
+    {
+        "precision": 0.0748081841432225,
+        "recall": 0.936,
+        "rev": "workspace",
+        "threshold": 0.017337614870509607
+    },
+    {
+        "precision": 0.07697368421052632,
+        "recall": 0.936,
+        "rev": "workspace",
+        "threshold": 0.017903531653531656
+    },
+    {
+        "precision": 0.07921462423832092,
+        "recall": 0.936,
+        "rev": "workspace",
+        "threshold": 0.01836111111111111
+    },
+    {
+        "precision": 0.08153310104529617,
+        "recall": 0.936,
+        "rev": "workspace",
+        "threshold": 0.01898148148148148
+    },
+    {
+        "precision": 0.08423326133909287,
+        "recall": 0.936,
+        "rev": "workspace",
+        "threshold": 0.019554673721340392
+    },
+    {
+        "precision": 0.08685968819599109,
+        "recall": 0.936,
+        "rev": "workspace",
+        "threshold": 0.020319294496926075
+    },
+    {
+        "precision": 0.08916218293620293,
+        "recall": 0.928,
+        "rev": "workspace",
+        "threshold": 0.020966269687497312
+    },
+    {
+        "precision": 0.09213661636219221,
+        "recall": 0.928,
+        "rev": "workspace",
+        "threshold": 0.02194203944203944
+    },
+    {
+        "precision": 0.09555189456342669,
+        "recall": 0.928,
+        "rev": "workspace",
+        "threshold": 0.022829768270944743
+    },
+    {
+        "precision": 0.09914529914529914,
+        "recall": 0.928,
+        "rev": "workspace",
+        "threshold": 0.023687770562770563
+    },
+    {
+        "precision": 0.10195035460992907,
+        "recall": 0.92,
+        "rev": "workspace",
+        "threshold": 0.02462962962962963
+    },
+    {
+        "precision": 0.10628465804066543,
+        "recall": 0.92,
+        "rev": "workspace",
+        "threshold": 0.02535454333248451
+    },
+    {
+        "precision": 0.11068334937439846,
+        "recall": 0.92,
+        "rev": "workspace",
+        "threshold": 0.02631257631257631
+    },
+    {
+        "precision": 0.11534603811434303,
+        "recall": 0.92,
+        "rev": "workspace",
+        "threshold": 0.027539682539682538
+    },
+    {
+        "precision": 0.12054507337526206,
+        "recall": 0.92,
+        "rev": "workspace",
+        "threshold": 0.028802996892264173
+    },
+    {
+        "precision": 0.12609649122807018,
+        "recall": 0.92,
+        "rev": "workspace",
+        "threshold": 0.030344831459963036
+    },
+    {
+        "precision": 0.13118527042577677,
+        "recall": 0.912,
+        "rev": "workspace",
+        "threshold": 0.032201178451178446
+    },
+    {
+        "precision": 0.1386861313868613,
+        "recall": 0.912,
+        "rev": "workspace",
+        "threshold": 0.03347582972582973
+    },
+    {
+        "precision": 0.14634146341463414,
+        "recall": 0.912,
+        "rev": "workspace",
+        "threshold": 0.03549511404774563
+    },
+    {
+        "precision": 0.15489130434782608,
+        "recall": 0.912,
+        "rev": "workspace",
+        "threshold": 0.03747279341029341
+    },
+    {
+        "precision": 0.16138328530259366,
+        "recall": 0.896,
+        "rev": "workspace",
+        "threshold": 0.03947420634920635
+    },
+    {
+        "precision": 0.17177914110429449,
+        "recall": 0.896,
+        "rev": "workspace",
+        "threshold": 0.0415602284964329
+    },
+    {
+        "precision": 0.18032786885245902,
+        "recall": 0.88,
+        "rev": "workspace",
+        "threshold": 0.04419397205522526
+    },
+    {
+        "precision": 0.19469026548672566,
+        "recall": 0.88,
+        "rev": "workspace",
+        "threshold": 0.04776098901098901
+    },
+    {
+        "precision": 0.2045889101338432,
+        "recall": 0.856,
+        "rev": "workspace",
+        "threshold": 0.052067700817700825
+    },
+    {
+        "precision": 0.2182952182952183,
+        "recall": 0.84,
+        "rev": "workspace",
+        "threshold": 0.05878968253968254
+    },
+    {
+        "precision": 0.23917995444191345,
+        "recall": 0.84,
+        "rev": "workspace",
+        "threshold": 0.06461870255348516
+    },
+    {
+        "precision": 0.26515151515151514,
+        "recall": 0.84,
+        "rev": "workspace",
+        "threshold": 0.07397642390289448
+    },
+    {
+        "precision": 0.29461756373937675,
+        "recall": 0.832,
+        "rev": "workspace",
+        "threshold": 0.08918645144689195
+    },
+    {
+        "precision": 0.3311897106109325,
+        "recall": 0.824,
+        "rev": "workspace",
+        "threshold": 0.09962577455224514
+    },
+    {
+        "precision": 0.3656716417910448,
+        "recall": 0.784,
+        "rev": "workspace",
+        "threshold": 0.11617504050368502
+    },
+    {
+        "precision": 0.41150442477876104,
+        "recall": 0.744,
+        "rev": "workspace",
+        "threshold": 0.1406129118989026
+    },
+    {
+        "precision": 0.46195652173913043,
+        "recall": 0.68,
+        "rev": "workspace",
+        "threshold": 0.1708874458874459
+    },
+    {
+        "precision": 0.528169014084507,
+        "recall": 0.6,
+        "rev": "workspace",
+        "threshold": 0.22559145560720467
+    },
+    {
+        "precision": 0.62,
+        "recall": 0.496,
+        "rev": "workspace",
+        "threshold": 0.26986111111111116
+    },
+    {
+        "precision": 0.6896551724137931,
+        "recall": 0.32,
+        "rev": "workspace",
+        "threshold": 0.32634417316691167
+    },
+    {
+        "precision": 0.8125,
+        "recall": 0.104,
+        "rev": "workspace",
+        "threshold": 0.414766231257936
+    }
+]
+    },
+    "title": "prc.json",
+    "width": 300,
+    "height": 300,
+    "params": [
+        {
+            "name": "smooth",
+            "value": 0.001,
+            "bind": {
+                "input": "range",
+                "min": 0.001,
+                "max": 1,
+                "step": 0.001
+            }
+        }
+    ],
+    "layer": [
+        {
+            "mark": "line",
+            "encoding": {
+                "x": {
+                    "field": "recall",
+                    "type": "quantitative",
+                    "title": "recall"
+                },
+                "y": {
+                    "field": "precision",
+                    "type": "quantitative",
+                    "title": "precision",
+                    "scale": {
+                        "zero": false
+                    }
+                },
+                "color": {
+                    "field": "rev",
+                    "type": "nominal"
+                }
+            },
+            "transform": [
+                {
+                    "loess": "precision",
+                    "on": "recall",
+                    "groupby": [
+                        "rev",
+                        "filename",
+                        "field",
+                        "filename::field"
+                    ],
+                    "bandwidth": {
+                        "signal": "smooth"
+                    }
+                }
+            ]
+        },
+        {
+            "mark": {
+                "type": "point",
+                "tooltip": {
+                    "content": "data"
+                }
+            },
+            "encoding": {
+                "x": {
+                    "field": "recall",
+                    "type": "quantitative",
+                    "title": "recall"
+                },
+                "y": {
+                    "field": "precision",
+                    "type": "quantitative",
+                    "title": "precision",
+                    "scale": {
+                        "zero": false
+                    }
+                },
+                "color": {
+                    "field": "rev",
+                    "type": "nominal"
+                }
+            }
+        }
+    ]
+}
+;
+            vegaEmbed('#prc_json', spec);
+        </script>
+    </div>
+    
+
+    <div id = "roc_json">
+        <script type = "text/javascript">
+            var spec = {
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+        "values": [
+    {
+        "fpr": 0.0,
+        "rev": "workspace",
+        "threshold": 1.680823525727761,
+        "tpr": 0.0
+    },
+    {
+        "fpr": 0.0,
+        "rev": "workspace",
+        "threshold": 0.6808235257277612,
+        "tpr": 0.008
+    },
+    {
+        "fpr": 0.0,
+        "rev": "workspace",
+        "threshold": 0.48154525556218414,
+        "tpr": 0.08
+    },
+    {
+        "fpr": 0.00027085590465872155,
+        "rev": "workspace",
+        "threshold": 0.4361333548747483,
+        "tpr": 0.08
+    },
+    {
+        "fpr": 0.00027085590465872155,
+        "rev": "workspace",
+        "threshold": 0.42271281516919407,
+        "tpr": 0.096
+    },
+    {
+        "fpr": 0.00040628385698808235,
+        "rev": "workspace",
+        "threshold": 0.4172690617246581,
+        "tpr": 0.096
+    },
+    {
+        "fpr": 0.00040628385698808235,
+        "rev": "workspace",
+        "threshold": 0.409850768337905,
+        "tpr": 0.128
+    },
+    {
+        "fpr": 0.0005417118093174431,
+        "rev": "workspace",
+        "threshold": 0.4086914033933988,
+        "tpr": 0.128
+    },
+    {
+        "fpr": 0.0005417118093174431,
+        "rev": "workspace",
+        "threshold": 0.40736654932735056,
+        "tpr": 0.136
+    },
+    {
+        "fpr": 0.0006771397616468039,
+        "rev": "workspace",
+        "threshold": 0.40567057498555953,
+        "tpr": 0.136
+    },
+    {
+        "fpr": 0.0006771397616468039,
+        "rev": "workspace",
+        "threshold": 0.3952483385525348,
+        "tpr": 0.168
+    },
+    {
+        "fpr": 0.0009479956663055255,
+        "rev": "workspace",
+        "threshold": 0.39075352250765605,
+        "tpr": 0.168
+    },
+    {
+        "fpr": 0.0009479956663055255,
+        "rev": "workspace",
+        "threshold": 0.37773478140765115,
+        "tpr": 0.2
+    },
+    {
+        "fpr": 0.0010834236186348862,
+        "rev": "workspace",
+        "threshold": 0.3720725995218691,
+        "tpr": 0.2
+    },
+    {
+        "fpr": 0.0010834236186348862,
+        "rev": "workspace",
+        "threshold": 0.37018195076051114,
+        "tpr": 0.208
+    },
+    {
+        "fpr": 0.001218851570964247,
+        "rev": "workspace",
+        "threshold": 0.37003154834677976,
+        "tpr": 0.208
+    },
+    {
+        "fpr": 0.001218851570964247,
+        "rev": "workspace",
+        "threshold": 0.3642468869251999,
+        "tpr": 0.224
+    },
+    {
+        "fpr": 0.0013542795232936078,
+        "rev": "workspace",
+        "threshold": 0.36379753643286983,
+        "tpr": 0.224
+    },
+    {
+        "fpr": 0.0013542795232936078,
+        "rev": "workspace",
+        "threshold": 0.3564640629923081,
+        "tpr": 0.256
+    },
+    {
+        "fpr": 0.0014897074756229686,
+        "rev": "workspace",
+        "threshold": 0.35493145230431095,
+        "tpr": 0.256
+    },
+    {
+        "fpr": 0.0014897074756229686,
+        "rev": "workspace",
+        "threshold": 0.35315371478883556,
+        "tpr": 0.264
+    },
+    {
+        "fpr": 0.0016251354279523294,
+        "rev": "workspace",
+        "threshold": 0.3489863944858728,
+        "tpr": 0.264
+    },
+    {
+        "fpr": 0.0016251354279523294,
+        "rev": "workspace",
+        "threshold": 0.3469579996291954,
+        "tpr": 0.272
+    },
+    {
+        "fpr": 0.0017605633802816902,
+        "rev": "workspace",
+        "threshold": 0.34531403467633115,
+        "tpr": 0.272
+    },
+    {
+        "fpr": 0.0017605633802816902,
+        "rev": "workspace",
+        "threshold": 0.34303312182712176,
+        "tpr": 0.28
+    },
+    {
+        "fpr": 0.0020314192849404116,
+        "rev": "workspace",
+        "threshold": 0.3399738801933075,
+        "tpr": 0.28
+    },
+    {
+        "fpr": 0.0020314192849404116,
+        "rev": "workspace",
+        "threshold": 0.33612344986466336,
+        "tpr": 0.296
+    },
+    {
+        "fpr": 0.0021668472372697724,
+        "rev": "workspace",
+        "threshold": 0.3357867593506139,
+        "tpr": 0.296
+    },
+    {
+        "fpr": 0.0021668472372697724,
+        "rev": "workspace",
+        "threshold": 0.3319800601818982,
+        "tpr": 0.312
+    },
+    {
+        "fpr": 0.002437703141928494,
+        "rev": "workspace",
+        "threshold": 0.3303905304586082,
+        "tpr": 0.312
+    },
+    {
+        "fpr": 0.002437703141928494,
+        "rev": "workspace",
+        "threshold": 0.3223222874190367,
+        "tpr": 0.344
+    },
+    {
+        "fpr": 0.0025731310942578548,
+        "rev": "workspace",
+        "threshold": 0.321790442131479,
+        "tpr": 0.344
+    },
+    {
+        "fpr": 0.0025731310942578548,
+        "rev": "workspace",
+        "threshold": 0.31744378283128677,
+        "tpr": 0.384
+    },
+    {
+        "fpr": 0.0027085590465872156,
+        "rev": "workspace",
+        "threshold": 0.3141374914713627,
+        "tpr": 0.384
+    },
+    {
+        "fpr": 0.0027085590465872156,
+        "rev": "workspace",
+        "threshold": 0.31401879846732783,
+        "tpr": 0.392
+    },
+    {
+        "fpr": 0.0032502708559046588,
+        "rev": "workspace",
+        "threshold": 0.30986814012826935,
+        "tpr": 0.392
+    },
+    {
+        "fpr": 0.0032502708559046588,
+        "rev": "workspace",
+        "threshold": 0.3005066647322082,
+        "tpr": 0.408
+    },
+    {
+        "fpr": 0.0035211267605633804,
+        "rev": "workspace",
+        "threshold": 0.2958853288412388,
+        "tpr": 0.408
+    },
+    {
+        "fpr": 0.0035211267605633804,
+        "rev": "workspace",
+        "threshold": 0.29463288162328233,
+        "tpr": 0.424
+    },
+    {
+        "fpr": 0.003656554712892741,
+        "rev": "workspace",
+        "threshold": 0.2945705365690306,
+        "tpr": 0.424
+    },
+    {
+        "fpr": 0.003656554712892741,
+        "rev": "workspace",
+        "threshold": 0.29208156790326334,
+        "tpr": 0.432
+    },
+    {
+        "fpr": 0.004062838569880823,
+        "rev": "workspace",
+        "threshold": 0.2880341504641966,
+        "tpr": 0.432
+    },
+    {
+        "fpr": 0.004062838569880823,
+        "rev": "workspace",
+        "threshold": 0.28799404039848303,
+        "tpr": 0.44
+    },
+    {
+        "fpr": 0.004333694474539545,
+        "rev": "workspace",
+        "threshold": 0.28670033542284196,
+        "tpr": 0.44
+    },
+    {
+        "fpr": 0.004333694474539545,
+        "rev": "workspace",
+        "threshold": 0.2839900007365766,
+        "tpr": 0.464
+    },
+    {
+        "fpr": 0.0044691224268689055,
+        "rev": "workspace",
+        "threshold": 0.2821815479506651,
+        "tpr": 0.464
+    },
+    {
+        "fpr": 0.0044691224268689055,
+        "rev": "workspace",
+        "threshold": 0.2810321115559035,
+        "tpr": 0.472
+    },
+    {
+        "fpr": 0.004604550379198266,
+        "rev": "workspace",
+        "threshold": 0.2795982955544976,
+        "tpr": 0.472
+    },
+    {
+        "fpr": 0.004604550379198266,
+        "rev": "workspace",
+        "threshold": 0.27851052885280797,
+        "tpr": 0.48
+    },
+    {
+        "fpr": 0.004875406283856988,
+        "rev": "workspace",
+        "threshold": 0.27587719298245617,
+        "tpr": 0.48
+    },
+    {
+        "fpr": 0.004875406283856988,
+        "rev": "workspace",
+        "threshold": 0.2729105416395473,
+        "tpr": 0.496
+    },
+    {
+        "fpr": 0.005552546045503792,
+        "rev": "workspace",
+        "threshold": 0.2680641980857942,
+        "tpr": 0.496
+    },
+    {
+        "fpr": 0.005552546045503792,
+        "rev": "workspace",
+        "threshold": 0.2643028274829745,
+        "tpr": 0.52
+    },
+    {
+        "fpr": 0.006094257854821235,
+        "rev": "workspace",
+        "threshold": 0.2615277777777778,
+        "tpr": 0.52
+    },
+    {
+        "fpr": 0.006094257854821235,
+        "rev": "workspace",
+        "threshold": 0.2563885453404143,
+        "tpr": 0.552
+    },
+    {
+        "fpr": 0.006365113759479957,
+        "rev": "workspace",
+        "threshold": 0.2548113970366292,
+        "tpr": 0.552
+    },
+    {
+        "fpr": 0.006365113759479957,
+        "rev": "workspace",
+        "threshold": 0.2523489880878774,
+        "tpr": 0.568
+    },
+    {
+        "fpr": 0.0065005417118093175,
+        "rev": "workspace",
+        "threshold": 0.2523347175812177,
+        "tpr": 0.568
+    },
+    {
+        "fpr": 0.0065005417118093175,
+        "rev": "workspace",
+        "threshold": 0.25197110688130403,
+        "tpr": 0.576
+    },
+    {
+        "fpr": 0.007042253521126761,
+        "rev": "workspace",
+        "threshold": 0.247279076086116,
+        "tpr": 0.576
+    },
+    {
+        "fpr": 0.007042253521126761,
+        "rev": "workspace",
+        "threshold": 0.24625306849352815,
+        "tpr": 0.584
+    },
+    {
+        "fpr": 0.00866738894907909,
+        "rev": "workspace",
+        "threshold": 0.22786271233639654,
+        "tpr": 0.584
+    },
+    {
+        "fpr": 0.00866738894907909,
+        "rev": "workspace",
+        "threshold": 0.22658735087990658,
+        "tpr": 0.592
+    },
+    {
+        "fpr": 0.009073672806067173,
+        "rev": "workspace",
+        "threshold": 0.22567306178395322,
+        "tpr": 0.592
+    },
+    {
+        "fpr": 0.009073672806067173,
+        "rev": "workspace",
+        "threshold": 0.22559145560720467,
+        "tpr": 0.6
+    },
+    {
+        "fpr": 0.009479956663055254,
+        "rev": "workspace",
+        "threshold": 0.22419498620530887,
+        "tpr": 0.6
+    },
+    {
+        "fpr": 0.009479956663055254,
+        "rev": "workspace",
+        "threshold": 0.22355511173254147,
+        "tpr": 0.608
+    },
+    {
+        "fpr": 0.009750812567713976,
+        "rev": "workspace",
+        "threshold": 0.2220027823035462,
+        "tpr": 0.608
+    },
+    {
+        "fpr": 0.009750812567713976,
+        "rev": "workspace",
+        "threshold": 0.22045435643261732,
+        "tpr": 0.616
+    },
+    {
+        "fpr": 0.010021668472372697,
+        "rev": "workspace",
+        "threshold": 0.2172834004190597,
+        "tpr": 0.616
+    },
+    {
+        "fpr": 0.010021668472372697,
+        "rev": "workspace",
+        "threshold": 0.2135044957086954,
+        "tpr": 0.624
+    },
+    {
+        "fpr": 0.010157096424702059,
+        "rev": "workspace",
+        "threshold": 0.2113315426011448,
+        "tpr": 0.624
+    },
+    {
+        "fpr": 0.010157096424702059,
+        "rev": "workspace",
+        "threshold": 0.21106316891642976,
+        "tpr": 0.632
+    },
+    {
+        "fpr": 0.01042795232936078,
+        "rev": "workspace",
+        "threshold": 0.2056486940689643,
+        "tpr": 0.632
+    },
+    {
+        "fpr": 0.01042795232936078,
+        "rev": "workspace",
+        "threshold": 0.204282210572963,
+        "tpr": 0.64
+    },
+    {
+        "fpr": 0.011511375947995667,
+        "rev": "workspace",
+        "threshold": 0.1963178316258307,
+        "tpr": 0.64
+    },
+    {
+        "fpr": 0.011511375947995667,
+        "rev": "workspace",
+        "threshold": 0.19554943292350754,
+        "tpr": 0.648
+    },
+    {
+        "fpr": 0.011782231852654389,
+        "rev": "workspace",
+        "threshold": 0.1874477093767796,
+        "tpr": 0.648
+    },
+    {
+        "fpr": 0.011782231852654389,
+        "rev": "workspace",
+        "threshold": 0.18706987908032796,
+        "tpr": 0.656
+    },
+    {
+        "fpr": 0.012730227518959913,
+        "rev": "workspace",
+        "threshold": 0.179757838269078,
+        "tpr": 0.656
+    },
+    {
+        "fpr": 0.012730227518959913,
+        "rev": "workspace",
+        "threshold": 0.17677286742798587,
+        "tpr": 0.68
+    },
+    {
+        "fpr": 0.014219934994582881,
+        "rev": "workspace",
+        "threshold": 0.16821055922062114,
+        "tpr": 0.68
+    },
+    {
+        "fpr": 0.014219934994582881,
+        "rev": "workspace",
+        "threshold": 0.16598974088247545,
+        "tpr": 0.696
+    },
+    {
+        "fpr": 0.014626218851570965,
+        "rev": "workspace",
+        "threshold": 0.1628495027093425,
+        "tpr": 0.696
+    },
+    {
+        "fpr": 0.014626218851570965,
+        "rev": "workspace",
+        "threshold": 0.16074302195625728,
+        "tpr": 0.704
+    },
+    {
+        "fpr": 0.014897074756229686,
+        "rev": "workspace",
+        "threshold": 0.15846226388968518,
+        "tpr": 0.704
+    },
+    {
+        "fpr": 0.014897074756229686,
+        "rev": "workspace",
+        "threshold": 0.15583354899930985,
+        "tpr": 0.712
+    },
+    {
+        "fpr": 0.01543878656554713,
+        "rev": "workspace",
+        "threshold": 0.15263213206095214,
+        "tpr": 0.712
+    },
+    {
+        "fpr": 0.01543878656554713,
+        "rev": "workspace",
+        "threshold": 0.15211081409417326,
+        "tpr": 0.72
+    },
+    {
+        "fpr": 0.016928494041170097,
+        "rev": "workspace",
+        "threshold": 0.14667414568949094,
+        "tpr": 0.72
+    },
+    {
+        "fpr": 0.016928494041170097,
+        "rev": "workspace",
+        "threshold": 0.14462307768116928,
+        "tpr": 0.728
+    },
+    {
+        "fpr": 0.018011917659804984,
+        "rev": "workspace",
+        "threshold": 0.14066487713229597,
+        "tpr": 0.728
+    },
+    {
+        "fpr": 0.018011917659804984,
+        "rev": "workspace",
+        "threshold": 0.1406129118989026,
+        "tpr": 0.744
+    },
+    {
+        "fpr": 0.01895991332611051,
+        "rev": "workspace",
+        "threshold": 0.13847756274226863,
+        "tpr": 0.744
+    },
+    {
+        "fpr": 0.01895991332611051,
+        "rev": "workspace",
+        "threshold": 0.13784364310583352,
+        "tpr": 0.752
+    },
+    {
+        "fpr": 0.020449620801733476,
+        "rev": "workspace",
+        "threshold": 0.12940954055273782,
+        "tpr": 0.752
+    },
+    {
+        "fpr": 0.020449620801733476,
+        "rev": "workspace",
+        "threshold": 0.12917047989706656,
+        "tpr": 0.76
+    },
+    {
+        "fpr": 0.02112676056338028,
+        "rev": "workspace",
+        "threshold": 0.1253166971916972,
+        "tpr": 0.76
+    },
+    {
+        "fpr": 0.02112676056338028,
+        "rev": "workspace",
+        "threshold": 0.12418438995644876,
+        "tpr": 0.776
+    },
+    {
+        "fpr": 0.02261646803900325,
+        "rev": "workspace",
+        "threshold": 0.11694819069819071,
+        "tpr": 0.776
+    },
+    {
+        "fpr": 0.02261646803900325,
+        "rev": "workspace",
+        "threshold": 0.11672711326515675,
+        "tpr": 0.784
+    },
+    {
+        "fpr": 0.023158179848320692,
+        "rev": "workspace",
+        "threshold": 0.11584702212991685,
+        "tpr": 0.784
+    },
+    {
+        "fpr": 0.023158179848320692,
+        "rev": "workspace",
+        "threshold": 0.1157639354050799,
+        "tpr": 0.792
+    },
+    {
+        "fpr": 0.02424160346695558,
+        "rev": "workspace",
+        "threshold": 0.11172694227736404,
+        "tpr": 0.792
+    },
+    {
+        "fpr": 0.024512459371614302,
+        "rev": "workspace",
+        "threshold": 0.11,
+        "tpr": 0.792
+    },
+    {
+        "fpr": 0.024512459371614302,
+        "rev": "workspace",
+        "threshold": 0.10844332336766545,
+        "tpr": 0.8
+    },
+    {
+        "fpr": 0.024783315276273022,
+        "rev": "workspace",
+        "threshold": 0.10833333333333334,
+        "tpr": 0.8
+    },
+    {
+        "fpr": 0.024783315276273022,
+        "rev": "workspace",
+        "threshold": 0.10821054096402395,
+        "tpr": 0.808
+    },
+    {
+        "fpr": 0.02627302275189599,
+        "rev": "workspace",
+        "threshold": 0.10532898325158384,
+        "tpr": 0.808
+    },
+    {
+        "fpr": 0.02627302275189599,
+        "rev": "workspace",
+        "threshold": 0.10498833169169014,
+        "tpr": 0.816
+    },
+    {
+        "fpr": 0.026679306608884075,
+        "rev": "workspace",
+        "threshold": 0.10462249067954683,
+        "tpr": 0.816
+    },
+    {
+        "fpr": 0.026679306608884075,
+        "rev": "workspace",
+        "threshold": 0.10432150699542003,
+        "tpr": 0.824
+    },
+    {
+        "fpr": 0.030335861321776816,
+        "rev": "workspace",
+        "threshold": 0.0957488095092416,
+        "tpr": 0.824
+    },
+    {
+        "fpr": 0.030335861321776816,
+        "rev": "workspace",
+        "threshold": 0.09570063853900844,
+        "tpr": 0.832
+    },
+    {
+        "fpr": 0.03412784398699892,
+        "rev": "workspace",
+        "threshold": 0.08824013157894736,
+        "tpr": 0.832
+    },
+    {
+        "fpr": 0.03439869989165764,
+        "rev": "workspace",
+        "threshold": 0.08819444444444445,
+        "tpr": 0.832
+    },
+    {
+        "fpr": 0.035346695557963166,
+        "rev": "workspace",
+        "threshold": 0.08654506120714558,
+        "tpr": 0.832
+    },
+    {
+        "fpr": 0.035346695557963166,
+        "rev": "workspace",
+        "threshold": 0.08650120143288807,
+        "tpr": 0.84
+    },
+    {
+        "fpr": 0.043066088840736726,
+        "rev": "workspace",
+        "threshold": 0.06789629130030765,
+        "tpr": 0.84
+    },
+    {
+        "fpr": 0.04333694474539545,
+        "rev": "workspace",
+        "threshold": 0.06775139542570528,
+        "tpr": 0.84
+    },
+    {
+        "fpr": 0.05132719393282774,
+        "rev": "workspace",
+        "threshold": 0.05839618347338937,
+        "tpr": 0.84
+    },
+    {
+        "fpr": 0.05132719393282774,
+        "rev": "workspace",
+        "threshold": 0.058338673853379736,
+        "tpr": 0.848
+    },
+    {
+        "fpr": 0.05200433369447454,
+        "rev": "workspace",
+        "threshold": 0.056370409561199035,
+        "tpr": 0.848
+    },
+    {
+        "fpr": 0.05200433369447454,
+        "rev": "workspace",
+        "threshold": 0.056249999999999994,
+        "tpr": 0.856
+    },
+    {
+        "fpr": 0.058098591549295774,
+        "rev": "workspace",
+        "threshold": 0.05103327965646806,
+        "tpr": 0.856
+    },
+    {
+        "fpr": 0.058098591549295774,
+        "rev": "workspace",
+        "threshold": 0.05093293558766705,
+        "tpr": 0.864
+    },
+    {
+        "fpr": 0.05931744312026002,
+        "rev": "workspace",
+        "threshold": 0.049760989010989014,
+        "tpr": 0.864
+    },
+    {
+        "fpr": 0.05931744312026002,
+        "rev": "workspace",
+        "threshold": 0.04968664387142649,
+        "tpr": 0.872
+    },
+    {
+        "fpr": 0.05945287107258938,
+        "rev": "workspace",
+        "threshold": 0.049684343434343435,
+        "tpr": 0.872
+    },
+    {
+        "fpr": 0.05945287107258938,
+        "rev": "workspace",
+        "threshold": 0.0496631307718769,
+        "tpr": 0.88
+    },
+    {
+        "fpr": 0.06365113759479957,
+        "rev": "workspace",
+        "threshold": 0.04598214285714286,
+        "tpr": 0.88
+    },
+    {
+        "fpr": 0.06419284940411701,
+        "rev": "workspace",
+        "threshold": 0.04583333333333333,
+        "tpr": 0.88
+    },
+    {
+        "fpr": 0.07096424702058506,
+        "rev": "workspace",
+        "threshold": 0.04281775958246547,
+        "tpr": 0.88
+    },
+    {
+        "fpr": 0.07096424702058506,
+        "rev": "workspace",
+        "threshold": 0.04281385281385282,
+        "tpr": 0.888
+    },
+    {
+        "fpr": 0.07137053087757313,
+        "rev": "workspace",
+        "threshold": 0.04270936661377838,
+        "tpr": 0.888
+    },
+    {
+        "fpr": 0.07137053087757313,
+        "rev": "workspace",
+        "threshold": 0.04267174818645406,
+        "tpr": 0.896
+    },
+    {
+        "fpr": 0.08057963163596966,
+        "rev": "workspace",
+        "threshold": 0.03872632922632923,
+        "tpr": 0.896
+    },
+    {
+        "fpr": 0.08057963163596966,
+        "rev": "workspace",
+        "threshold": 0.038647232397232396,
+        "tpr": 0.904
+    },
+    {
+        "fpr": 0.08328819068255688,
+        "rev": "workspace",
+        "threshold": 0.037878540305010894,
+        "tpr": 0.904
+    },
+    {
+        "fpr": 0.08328819068255688,
+        "rev": "workspace",
+        "threshold": 0.03778749028749029,
+        "tpr": 0.912
+    },
+    {
+        "fpr": 0.08816359696641386,
+        "rev": "workspace",
+        "threshold": 0.03595628908128908,
+        "tpr": 0.912
+    },
+    {
+        "fpr": 0.08843445287107259,
+        "rev": "workspace",
+        "threshold": 0.03595238095238095,
+        "tpr": 0.912
+    },
+    {
+        "fpr": 0.09019501625135427,
+        "rev": "workspace",
+        "threshold": 0.03546506734006734,
+        "tpr": 0.912
+    },
+    {
+        "fpr": 0.090465872156013,
+        "rev": "workspace",
+        "threshold": 0.035416666666666666,
+        "tpr": 0.912
+    },
+    {
+        "fpr": 0.0960184182015168,
+        "rev": "workspace",
+        "threshold": 0.03344714653538183,
+        "tpr": 0.912
+    },
+    {
+        "fpr": 0.09628927410617552,
+        "rev": "workspace",
+        "threshold": 0.03335470085470085,
+        "tpr": 0.912
+    },
+    {
+        "fpr": 0.09886240520043336,
+        "rev": "workspace",
+        "threshold": 0.03265547633194692,
+        "tpr": 0.912
+    },
+    {
+        "fpr": 0.09953954496208017,
+        "rev": "workspace",
+        "threshold": 0.03261904761904762,
+        "tpr": 0.912
+    },
+    {
+        "fpr": 0.10441495124593717,
+        "rev": "workspace",
+        "threshold": 0.031646825396825395,
+        "tpr": 0.912
+    },
+    {
+        "fpr": 0.10441495124593717,
+        "rev": "workspace",
+        "threshold": 0.03163558187455246,
+        "tpr": 0.92
+    },
+    {
+        "fpr": 0.10468580715059589,
+        "rev": "workspace",
+        "threshold": 0.03152777777777778,
+        "tpr": 0.92
+    },
+    {
+        "fpr": 0.11552004333694474,
+        "rev": "workspace",
+        "threshold": 0.02835642182365328,
+        "tpr": 0.92
+    },
+    {
+        "fpr": 0.11579089924160346,
+        "rev": "workspace",
+        "threshold": 0.028333333333333332,
+        "tpr": 0.92
+    },
+    {
+        "fpr": 0.12730227518959913,
+        "rev": "workspace",
+        "threshold": 0.02604166666666667,
+        "tpr": 0.92
+    },
+    {
+        "fpr": 0.12757313109425786,
+        "rev": "workspace",
+        "threshold": 0.026041666666666668,
+        "tpr": 0.92
+    },
+    {
+        "fpr": 0.1336673889490791,
+        "rev": "workspace",
+        "threshold": 0.02502912900939217,
+        "tpr": 0.92
+    },
+    {
+        "fpr": 0.13420910075839654,
+        "rev": "workspace",
+        "threshold": 0.025,
+        "tpr": 0.92
+    },
+    {
+        "fpr": 0.13691765980498374,
+        "rev": "workspace",
+        "threshold": 0.024656412272511342,
+        "tpr": 0.92
+    },
+    {
+        "fpr": 0.13718851570964247,
+        "rev": "workspace",
+        "threshold": 0.02462962962962963,
+        "tpr": 0.92
+    },
+    {
+        "fpr": 0.13867822318526543,
+        "rev": "workspace",
+        "threshold": 0.02431013431013431,
+        "tpr": 0.92
+    },
+    {
+        "fpr": 0.13867822318526543,
+        "rev": "workspace",
+        "threshold": 0.02425925925925926,
+        "tpr": 0.928
+    },
+    {
+        "fpr": 0.14301191765980498,
+        "rev": "workspace",
+        "threshold": 0.023680555555555555,
+        "tpr": 0.928
+    },
+    {
+        "fpr": 0.1432827735644637,
+        "rev": "workspace",
+        "threshold": 0.023664021164021165,
+        "tpr": 0.928
+    },
+    {
+        "fpr": 0.1470747562296858,
+        "rev": "workspace",
+        "threshold": 0.023154761904761904,
+        "tpr": 0.928
+    },
+    {
+        "fpr": 0.14734561213434452,
+        "rev": "workspace",
+        "threshold": 0.023082010582010582,
+        "tpr": 0.928
+    },
+    {
+        "fpr": 0.15113759479956662,
+        "rev": "workspace",
+        "threshold": 0.02251563251563252,
+        "tpr": 0.928
+    },
+    {
+        "fpr": 0.15154387865655472,
+        "rev": "workspace",
+        "threshold": 0.022500000000000003,
+        "tpr": 0.928
+    },
+    {
+        "fpr": 0.1528981581798483,
+        "rev": "workspace",
+        "threshold": 0.02229150076976164,
+        "tpr": 0.928
+    },
+    {
+        "fpr": 0.15316901408450703,
+        "rev": "workspace",
+        "threshold": 0.02222222222222222,
+        "tpr": 0.928
+    },
+    {
+        "fpr": 0.16170097508125678,
+        "rev": "workspace",
+        "threshold": 0.0208516081871345,
+        "tpr": 0.928
+    },
+    {
+        "fpr": 0.16224268689057422,
+        "rev": "workspace",
+        "threshold": 0.02083333333333333,
+        "tpr": 0.928
+    },
+    {
+        "fpr": 0.16251354279523295,
+        "rev": "workspace",
+        "threshold": 0.020791245791245794,
+        "tpr": 0.928
+    },
+    {
+        "fpr": 0.16278439869989167,
+        "rev": "workspace",
+        "threshold": 0.02077991452991453,
+        "tpr": 0.928
+    },
+    {
+        "fpr": 0.1640032502708559,
+        "rev": "workspace",
+        "threshold": 0.020562770562770564,
+        "tpr": 0.928
+    },
+    {
+        "fpr": 0.1640032502708559,
+        "rev": "workspace",
+        "threshold": 0.020541819291819297,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.16427410617551463,
+        "rev": "workspace",
+        "threshold": 0.020535714285714286,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.17239978331527628,
+        "rev": "workspace",
+        "threshold": 0.01951441102756892,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.172670639219935,
+        "rev": "workspace",
+        "threshold": 0.01950757575757576,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.1740249187432286,
+        "rev": "workspace",
+        "threshold": 0.019353940406571988,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.1742957746478873,
+        "rev": "workspace",
+        "threshold": 0.019325396825396822,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.176056338028169,
+        "rev": "workspace",
+        "threshold": 0.01918154761904762,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.17632719393282772,
+        "rev": "workspace",
+        "threshold": 0.019174058512293805,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.17741061755146262,
+        "rev": "workspace",
+        "threshold": 0.019050190278131453,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.17768147345612134,
+        "rev": "workspace",
+        "threshold": 0.019047619047619046,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.18743228602383533,
+        "rev": "workspace",
+        "threshold": 0.018055555555555557,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.18770314192849405,
+        "rev": "workspace",
+        "threshold": 0.018055555555555554,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.1909534127843987,
+        "rev": "workspace",
+        "threshold": 0.01779301082474457,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.19122426868905743,
+        "rev": "workspace",
+        "threshold": 0.01779100529100529,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.19352654387865656,
+        "rev": "workspace",
+        "threshold": 0.017510521885521883,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.19379739978331528,
+        "rev": "workspace",
+        "threshold": 0.0175,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.19840195016251355,
+        "rev": "workspace",
+        "threshold": 0.017097608274078864,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.198943661971831,
+        "rev": "workspace",
+        "threshold": 0.017063492063492062,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.19948537378114842,
+        "rev": "workspace",
+        "threshold": 0.017037037037037035,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.19975622968580714,
+        "rev": "workspace",
+        "threshold": 0.01701388888888889,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.20043336944745396,
+        "rev": "workspace",
+        "threshold": 0.016975351037851038,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.2007042253521127,
+        "rev": "workspace",
+        "threshold": 0.016964285714285713,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.20463163596966413,
+        "rev": "workspace",
+        "threshold": 0.01669001610305958,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.20706933911159264,
+        "rev": "workspace",
+        "threshold": 0.016666666666666666,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.2134344528710726,
+        "rev": "workspace",
+        "threshold": 0.015972222222222224,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.21370530877573132,
+        "rev": "workspace",
+        "threshold": 0.01597222222222222,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.21424702058504874,
+        "rev": "workspace",
+        "threshold": 0.015916606541606544,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.21451787648970747,
+        "rev": "workspace",
+        "threshold": 0.015912698412698413,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.215465872156013,
+        "rev": "workspace",
+        "threshold": 0.015833333333333335,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.21573672806067173,
+        "rev": "workspace",
+        "threshold": 0.01583333333333333,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.21654929577464788,
+        "rev": "workspace",
+        "threshold": 0.015773809523809527,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.21695557963163598,
+        "rev": "workspace",
+        "threshold": 0.01574074074074074,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.21709100758396532,
+        "rev": "workspace",
+        "threshold": 0.015723573453836612,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.21736186348862405,
+        "rev": "workspace",
+        "threshold": 0.015714285714285715,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.21871614301191766,
+        "rev": "workspace",
+        "threshold": 0.01560723998223998,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.21912242686890573,
+        "rev": "workspace",
+        "threshold": 0.015597996774467363,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.22318526543878656,
+        "rev": "workspace",
+        "threshold": 0.015287574016022291,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.22359154929577466,
+        "rev": "workspace",
+        "threshold": 0.015277777777777779,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.22426868905742145,
+        "rev": "workspace",
+        "threshold": 0.015277777777777777,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.22846695557963165,
+        "rev": "workspace",
+        "threshold": 0.014965277777777777,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.22873781148429037,
+        "rev": "workspace",
+        "threshold": 0.014962121212121211,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.23361321776814734,
+        "rev": "workspace",
+        "threshold": 0.014631370091896408,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.23401950162513543,
+        "rev": "workspace",
+        "threshold": 0.01462962962962963,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.23429035752979416,
+        "rev": "workspace",
+        "threshold": 0.014603174603174602,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.23456121343445288,
+        "rev": "workspace",
+        "threshold": 0.014583333333333334,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.24282231852654387,
+        "rev": "workspace",
+        "threshold": 0.013948412698412701,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.2430931744312026,
+        "rev": "workspace",
+        "threshold": 0.013943452380952381,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.24390574214517877,
+        "rev": "workspace",
+        "threshold": 0.013897058823529412,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.2441765980498375,
+        "rev": "workspace",
+        "threshold": 0.01388888888888889,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.24471830985915494,
+        "rev": "workspace",
+        "threshold": 0.013888888888888888,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.2506771397616468,
+        "rev": "workspace",
+        "threshold": 0.013436507936507936,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.2513542795232936,
+        "rev": "workspace",
+        "threshold": 0.013433764091658829,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.25297941495124593,
+        "rev": "workspace",
+        "threshold": 0.013338779956427016,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.2532502708559047,
+        "rev": "workspace",
+        "threshold": 0.013333333333333334,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.25501083423618637,
+        "rev": "workspace",
+        "threshold": 0.013195448902811938,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.25528169014084506,
+        "rev": "workspace",
+        "threshold": 0.013194444444444444,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.25677139761646806,
+        "rev": "workspace",
+        "threshold": 0.013062770562770562,
+        "tpr": 0.936
+    },
+    {
+        "fpr": 0.25677139761646806,
+        "rev": "workspace",
+        "threshold": 0.013059628237259814,
+        "tpr": 0.944
+    },
+    {
+        "fpr": 0.2648970747562297,
+        "rev": "workspace",
+        "threshold": 0.012556818181818185,
+        "tpr": 0.944
+    },
+    {
+        "fpr": 0.2651679306608884,
+        "rev": "workspace",
+        "threshold": 0.012549603174603175,
+        "tpr": 0.944
+    },
+    {
+        "fpr": 0.2655742145178765,
+        "rev": "workspace",
+        "threshold": 0.012500361480624639,
+        "tpr": 0.944
+    },
+    {
+        "fpr": 0.268011917659805,
+        "rev": "workspace",
+        "threshold": 0.0125,
+        "tpr": 0.944
+    },
+    {
+        "fpr": 0.2681473456121343,
+        "rev": "workspace",
+        "threshold": 0.012471395881006864,
+        "tpr": 0.944
+    },
+    {
+        "fpr": 0.2684182015167931,
+        "rev": "workspace",
+        "threshold": 0.01246031746031746,
+        "tpr": 0.944
+    },
+    {
+        "fpr": 0.26868905742145177,
+        "rev": "workspace",
+        "threshold": 0.012440476190476191,
+        "tpr": 0.944
+    },
+    {
+        "fpr": 0.2689599133261105,
+        "rev": "workspace",
+        "threshold": 0.012424242424242424,
+        "tpr": 0.944
+    },
+    {
+        "fpr": 0.26977248104008666,
+        "rev": "workspace",
+        "threshold": 0.012380952380952381,
+        "tpr": 0.944
+    },
+    {
+        "fpr": 0.2700433369447454,
+        "rev": "workspace",
+        "threshold": 0.012361111111111111,
+        "tpr": 0.944
+    },
+    {
+        "fpr": 0.27397074756229683,
+        "rev": "workspace",
+        "threshold": 0.012153825205295793,
+        "tpr": 0.944
+    },
+    {
+        "fpr": 0.27410617551462624,
+        "rev": "workspace",
+        "threshold": 0.012152777777777778,
+        "tpr": 0.952
+    },
+    {
+        "fpr": 0.2755958829902492,
+        "rev": "workspace",
+        "threshold": 0.012105263157894737,
+        "tpr": 0.952
+    },
+    {
+        "fpr": 0.2760021668472373,
+        "rev": "workspace",
+        "threshold": 0.012091503267973857,
+        "tpr": 0.952
+    },
+    {
+        "fpr": 0.2765438786565547,
+        "rev": "workspace",
+        "threshold": 0.012067099567099566,
+        "tpr": 0.952
+    },
+    {
+        "fpr": 0.2768147345612134,
+        "rev": "workspace",
+        "threshold": 0.012063492063492063,
+        "tpr": 0.952
+    },
+    {
+        "fpr": 0.2772210184182015,
+        "rev": "workspace",
+        "threshold": 0.012053571428571429,
+        "tpr": 0.952
+    },
+    {
+        "fpr": 0.27749187432286027,
+        "rev": "workspace",
+        "threshold": 0.012037037037037037,
+        "tpr": 0.952
+    },
+    {
+        "fpr": 0.2787107258938245,
+        "rev": "workspace",
+        "threshold": 0.011990740740740741,
+        "tpr": 0.952
+    },
+    {
+        "fpr": 0.2789815817984832,
+        "rev": "workspace",
+        "threshold": 0.011982804096774685,
+        "tpr": 0.952
+    },
+    {
+        "fpr": 0.27911700975081255,
+        "rev": "workspace",
+        "threshold": 0.01197210720036807,
+        "tpr": 0.952
+    },
+    {
+        "fpr": 0.2793878656554713,
+        "rev": "workspace",
+        "threshold": 0.011944444444444445,
+        "tpr": 0.952
+    },
+    {
+        "fpr": 0.27979414951245934,
+        "rev": "workspace",
+        "threshold": 0.011921052631578947,
+        "tpr": 0.952
+    },
+    {
+        "fpr": 0.28020043336944744,
+        "rev": "workspace",
+        "threshold": 0.011904761904761906,
+        "tpr": 0.952
+    },
+    {
+        "fpr": 0.2841278439869989,
+        "rev": "workspace",
+        "threshold": 0.011677109440267334,
+        "tpr": 0.952
+    },
+    {
+        "fpr": 0.28466955579631636,
+        "rev": "workspace",
+        "threshold": 0.011666666666666665,
+        "tpr": 0.952
+    },
+    {
+        "fpr": 0.2872426868905742,
+        "rev": "workspace",
+        "threshold": 0.011554968545100124,
+        "tpr": 0.952
+    },
+    {
+        "fpr": 0.28751354279523295,
+        "rev": "workspace",
+        "threshold": 0.01154970760233918,
+        "tpr": 0.952
+    },
+    {
+        "fpr": 0.2923889490790899,
+        "rev": "workspace",
+        "threshold": 0.011298076923076923,
+        "tpr": 0.952
+    },
+    {
+        "fpr": 0.29265980498374866,
+        "rev": "workspace",
+        "threshold": 0.011296296296296297,
+        "tpr": 0.952
+    },
+    {
+        "fpr": 0.2960455037919827,
+        "rev": "workspace",
+        "threshold": 0.011111111111111112,
+        "tpr": 0.952
+    },
+    {
+        "fpr": 0.29848320693391117,
+        "rev": "workspace",
+        "threshold": 0.01111111111111111,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.3003791982665222,
+        "rev": "workspace",
+        "threshold": 0.011022727272727273,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.30065005417118096,
+        "rev": "workspace",
+        "threshold": 0.011022010397010397,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.3021397616468039,
+        "rev": "workspace",
+        "threshold": 0.010964174714174714,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.30241061755146265,
+        "rev": "workspace",
+        "threshold": 0.010942760942760943,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.30308775731310944,
+        "rev": "workspace",
+        "threshold": 0.010874118165784834,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.3036294691224269,
+        "rev": "workspace",
+        "threshold": 0.010861426767676768,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.30525460455037917,
+        "rev": "workspace",
+        "threshold": 0.010768834175084174,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.3055254604550379,
+        "rev": "workspace",
+        "threshold": 0.010763888888888889,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.3066088840736728,
+        "rev": "workspace",
+        "threshold": 0.010720182595182596,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.3070151679306609,
+        "rev": "workspace",
+        "threshold": 0.010714285714285713,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.3087757313109426,
+        "rev": "workspace",
+        "threshold": 0.010613425925925927,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.3090465872156013,
+        "rev": "workspace",
+        "threshold": 0.010606060606060607,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.3094528710725894,
+        "rev": "workspace",
+        "threshold": 0.010563973063973064,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.3097237269772481,
+        "rev": "workspace",
+        "threshold": 0.010555555555555556,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.3112134344528711,
+        "rev": "workspace",
+        "threshold": 0.010497835497835499,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.31175514626218853,
+        "rev": "workspace",
+        "threshold": 0.010471132897603486,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.312703141928494,
+        "rev": "workspace",
+        "threshold": 0.010438008628798102,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.314192849404117,
+        "rev": "workspace",
+        "threshold": 0.010416666666666666,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.31717226435536294,
+        "rev": "workspace",
+        "threshold": 0.010260448128869181,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.3174431202600217,
+        "rev": "workspace",
+        "threshold": 0.010256410256410256,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.3179848320693391,
+        "rev": "workspace",
+        "threshold": 0.010229044834307992,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.31825568797399784,
+        "rev": "workspace",
+        "threshold": 0.010218253968253967,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.32082881906825567,
+        "rev": "workspace",
+        "threshold": 0.010096084471084472,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.3210996749729144,
+        "rev": "workspace",
+        "threshold": 0.010092592592592592,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.32258938244853735,
+        "rev": "workspace",
+        "threshold": 0.010016835016835016,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.3235373781148429,
+        "rev": "workspace",
+        "threshold": 0.01,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.32475622968580714,
+        "rev": "workspace",
+        "threshold": 0.009953703703703704,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.3252979414951246,
+        "rev": "workspace",
+        "threshold": 0.009937255578559926,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.3257042253521127,
+        "rev": "workspace",
+        "threshold": 0.009926276209170946,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.3259750812567714,
+        "rev": "workspace",
+        "threshold": 0.009924242424242424,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.32773564463705307,
+        "rev": "workspace",
+        "threshold": 0.009853059581320451,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.3280065005417118,
+        "rev": "workspace",
+        "threshold": 0.00984848484848485,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.3282773564463705,
+        "rev": "workspace",
+        "threshold": 0.009823232323232322,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.32854821235102927,
+        "rev": "workspace",
+        "threshold": 0.009815546772068511,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.3289544962080173,
+        "rev": "workspace",
+        "threshold": 0.00980392156862745,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.33057963163596965,
+        "rev": "workspace",
+        "threshold": 0.00972408293460925,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.3315276273022752,
+        "rev": "workspace",
+        "threshold": 0.009722222222222222,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.33206933911159264,
+        "rev": "workspace",
+        "threshold": 0.009714093273875882,
+        "tpr": 0.96
+    },
+    {
+        "fpr": 0.33206933911159264,
+        "rev": "workspace",
+        "threshold": 0.009702812284334023,
+        "tpr": 0.968
+    },
+    {
+        "fpr": 0.33301733477789813,
+        "rev": "workspace",
+        "threshold": 0.00962609649122807,
+        "tpr": 0.968
+    },
+    {
+        "fpr": 0.3332881906825569,
+        "rev": "workspace",
+        "threshold": 0.009615384615384614,
+        "tpr": 0.968
+    },
+    {
+        "fpr": 0.333694474539545,
+        "rev": "workspace",
+        "threshold": 0.00958994708994709,
+        "tpr": 0.968
+    },
+    {
+        "fpr": 0.3339653304442037,
+        "rev": "workspace",
+        "threshold": 0.009583333333333334,
+        "tpr": 0.968
+    },
+    {
+        "fpr": 0.3345070422535211,
+        "rev": "workspace",
+        "threshold": 0.009583333333333333,
+        "tpr": 0.968
+    },
+    {
+        "fpr": 0.3351841820151679,
+        "rev": "workspace",
+        "threshold": 0.009528985507246377,
+        "tpr": 0.968
+    },
+    {
+        "fpr": 0.33613217768147347,
+        "rev": "workspace",
+        "threshold": 0.009523809523809523,
+        "tpr": 0.968
+    },
+    {
+        "fpr": 0.33789274106175515,
+        "rev": "workspace",
+        "threshold": 0.009438131313131313,
+        "tpr": 0.968
+    },
+    {
+        "fpr": 0.33816359696641385,
+        "rev": "workspace",
+        "threshold": 0.009437321937321937,
+        "tpr": 0.968
+    },
+    {
+        "fpr": 0.3391115926327194,
+        "rev": "workspace",
+        "threshold": 0.009389213775178687,
+        "tpr": 0.968
+    },
+    {
+        "fpr": 0.3391115926327194,
+        "rev": "workspace",
+        "threshold": 0.009384920634920635,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.33924702058504874,
+        "rev": "workspace",
+        "threshold": 0.009380395433027012,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.33992416034669554,
+        "rev": "workspace",
+        "threshold": 0.009375,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.34073672806067173,
+        "rev": "workspace",
+        "threshold": 0.009351851851851853,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.34141386782231853,
+        "rev": "workspace",
+        "threshold": 0.009345295055821372,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.3423618634886241,
+        "rev": "workspace",
+        "threshold": 0.00931712962962963,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.3427681473456121,
+        "rev": "workspace",
+        "threshold": 0.009313725490196078,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.34330985915492956,
+        "rev": "workspace",
+        "threshold": 0.009292929292929294,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.3435807150595883,
+        "rev": "workspace",
+        "threshold": 0.00928763440860215,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.34412242686890576,
+        "rev": "workspace",
+        "threshold": 0.009272285209070107,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.3446641386782232,
+        "rev": "workspace",
+        "threshold": 0.00925925925925926,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.34507042253521125,
+        "rev": "workspace",
+        "threshold": 0.009234892787524367,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.34520585048754066,
+        "rev": "workspace",
+        "threshold": 0.009220354808590103,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.34547670639219935,
+        "rev": "workspace",
+        "threshold": 0.009210526315789473,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.3464247020585049,
+        "rev": "workspace",
+        "threshold": 0.009170751633986928,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.34683098591549294,
+        "rev": "workspace",
+        "threshold": 0.0091687552213868,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.34696641386782234,
+        "rev": "workspace",
+        "threshold": 0.009168143734639898,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.34723726977248104,
+        "rev": "workspace",
+        "threshold": 0.009166666666666667,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.3480498374864572,
+        "rev": "workspace",
+        "threshold": 0.00914351851851852,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.34872697724810403,
+        "rev": "workspace",
+        "threshold": 0.009126984126984128,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.3491332611050921,
+        "rev": "workspace",
+        "threshold": 0.009090909090909092,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.34981040086673887,
+        "rev": "workspace",
+        "threshold": 0.00909090909090909,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.3504875406283857,
+        "rev": "workspace",
+        "threshold": 0.009074074074074073,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.35089382448537376,
+        "rev": "workspace",
+        "threshold": 0.009057971014492754,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.35130010834236186,
+        "rev": "workspace",
+        "threshold": 0.009034690799396682,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.3515709642470206,
+        "rev": "workspace",
+        "threshold": 0.009027777777777779,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.35238353196099675,
+        "rev": "workspace",
+        "threshold": 0.009027777777777777,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.35265438786565545,
+        "rev": "workspace",
+        "threshold": 0.009024122807017544,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.3531960996749729,
+        "rev": "workspace",
+        "threshold": 0.008976070226070226,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.3540086673889491,
+        "rev": "workspace",
+        "threshold": 0.008974358974358974,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.3549566630552546,
+        "rev": "workspace",
+        "threshold": 0.008935185185185185,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.35522751895991334,
+        "rev": "workspace",
+        "threshold": 0.008928571428571428,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.35590465872156013,
+        "rev": "workspace",
+        "threshold": 0.008893849206349206,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.35631094257854823,
+        "rev": "workspace",
+        "threshold": 0.008888888888888889,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.3564463705308776,
+        "rev": "workspace",
+        "threshold": 0.00888565806728581,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.35671722643553627,
+        "rev": "workspace",
+        "threshold": 0.008880952380952382,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.35712351029252437,
+        "rev": "workspace",
+        "threshold": 0.008856470887363336,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.3576652221018418,
+        "rev": "workspace",
+        "threshold": 0.008854166666666666,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.3580715059588299,
+        "rev": "workspace",
+        "threshold": 0.008827266286631611,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.35861321776814736,
+        "rev": "workspace",
+        "threshold": 0.008823529411764706,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.35888407367280606,
+        "rev": "workspace",
+        "threshold": 0.008809899251075724,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.36037378114842905,
+        "rev": "workspace",
+        "threshold": 0.008796296296296297,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.36064463705308775,
+        "rev": "workspace",
+        "threshold": 0.008786549707602339,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.3609154929577465,
+        "rev": "workspace",
+        "threshold": 0.008771929824561403,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.3611863488624052,
+        "rev": "workspace",
+        "threshold": 0.008766695083830633,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.36172806067172264,
+        "rev": "workspace",
+        "threshold": 0.00875,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.3619989165763814,
+        "rev": "workspace",
+        "threshold": 0.008736772486772487,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.3622697724810401,
+        "rev": "workspace",
+        "threshold": 0.00873015873015873,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.3626760563380282,
+        "rev": "workspace",
+        "threshold": 0.008697089947089948,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.36308234019501623,
+        "rev": "workspace",
+        "threshold": 0.008695652173913044,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.3636240520043337,
+        "rev": "workspace",
+        "threshold": 0.008666666666666666,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.3640303358613218,
+        "rev": "workspace",
+        "threshold": 0.00864704653791341,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.3643011917659805,
+        "rev": "workspace",
+        "threshold": 0.008641975308641974,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.3645720476706392,
+        "rev": "workspace",
+        "threshold": 0.008637932116192985,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.3648429035752979,
+        "rev": "workspace",
+        "threshold": 0.00863095238095238,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.36552004333694477,
+        "rev": "workspace",
+        "threshold": 0.008603059581320452,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.3659263271939328,
+        "rev": "workspace",
+        "threshold": 0.008589743589743591,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.3666034669555796,
+        "rev": "workspace",
+        "threshold": 0.008537137681159419,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.3670097508125677,
+        "rev": "workspace",
+        "threshold": 0.008535954785954786,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.3702600216684724,
+        "rev": "workspace",
+        "threshold": 0.0083409587311105,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.38827193932827736,
+        "rev": "workspace",
+        "threshold": 0.008333333333333333,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.39219934994582883,
+        "rev": "workspace",
+        "threshold": 0.008101851851851851,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.3926056338028169,
+        "rev": "workspace",
+        "threshold": 0.008095238095238095,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.39409534127843987,
+        "rev": "workspace",
+        "threshold": 0.008000499242759305,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.39450162513542797,
+        "rev": "workspace",
+        "threshold": 0.00798611111111111,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.3946370530877573,
+        "rev": "workspace",
+        "threshold": 0.007967032967032966,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.394907908992416,
+        "rev": "workspace",
+        "threshold": 0.007962962962962963,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.3961267605633803,
+        "rev": "workspace",
+        "threshold": 0.007916666666666667,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.396397616468039,
+        "rev": "workspace",
+        "threshold": 0.007916666666666666,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.3968039003250271,
+        "rev": "workspace",
+        "threshold": 0.007897887678967534,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.39734561213434455,
+        "rev": "workspace",
+        "threshold": 0.007893374741200828,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.39761646803900325,
+        "rev": "workspace",
+        "threshold": 0.007883782883782883,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.397887323943662,
+        "rev": "workspace",
+        "threshold": 0.00787739008646937,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.4003250270855905,
+        "rev": "workspace",
+        "threshold": 0.0077397486772486776,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.4007313109425785,
+        "rev": "workspace",
+        "threshold": 0.007738095238095238,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.40127302275189597,
+        "rev": "workspace",
+        "threshold": 0.007717628350620679,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.4015438786565547,
+        "rev": "workspace",
+        "threshold": 0.0077046783625730995,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.4018147345612134,
+        "rev": "workspace",
+        "threshold": 0.007699275362318841,
+        "tpr": 0.976
+    },
+    {
+        "fpr": 0.4018147345612134,
+        "rev": "workspace",
+        "threshold": 0.007693602693602693,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.4026273022751896,
+        "rev": "workspace",
+        "threshold": 0.0076430659983291556,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.40303358613217766,
+        "rev": "workspace",
+        "threshold": 0.0076388888888888895,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.4035752979414951,
+        "rev": "workspace",
+        "threshold": 0.007638888888888889,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.40669014084507044,
+        "rev": "workspace",
+        "threshold": 0.007506297308928888,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.4072318526543879,
+        "rev": "workspace",
+        "threshold": 0.007499999999999999,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.40926327193932827,
+        "rev": "workspace",
+        "threshold": 0.00743786075036075,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.409534127843987,
+        "rev": "workspace",
+        "threshold": 0.007430555555555555,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.41251354279523295,
+        "rev": "workspace",
+        "threshold": 0.007295026596497184,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.41291982665222104,
+        "rev": "workspace",
+        "threshold": 0.007291666666666667,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.4154929577464789,
+        "rev": "workspace",
+        "threshold": 0.007157690628085365,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.41576381365113757,
+        "rev": "workspace",
+        "threshold": 0.0071560846560846545,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.4160346695557963,
+        "rev": "workspace",
+        "threshold": 0.007141989954489955,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.41657638136511377,
+        "rev": "workspace",
+        "threshold": 0.007133838383838383,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.417795232936078,
+        "rev": "workspace",
+        "threshold": 0.007083333333333334,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.4182015167930661,
+        "rev": "workspace",
+        "threshold": 0.007083333333333333,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.4202329360780065,
+        "rev": "workspace",
+        "threshold": 0.006949013157894737,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.42050379198266524,
+        "rev": "workspace",
+        "threshold": 0.006944444444444445,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.42185807150595883,
+        "rev": "workspace",
+        "threshold": 0.006944444444444444,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.4229414951245937,
+        "rev": "workspace",
+        "threshold": 0.006905099759201926,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.4232123510292524,
+        "rev": "workspace",
+        "threshold": 0.006904761904761904,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.4238894907908992,
+        "rev": "workspace",
+        "threshold": 0.006879084967320261,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.42416034669555797,
+        "rev": "workspace",
+        "threshold": 0.006878306878306878,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.42768147345612134,
+        "rev": "workspace",
+        "threshold": 0.006715474583895637,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.4279523293607801,
+        "rev": "workspace",
+        "threshold": 0.006712962962962963,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.4284940411700975,
+        "rev": "workspace",
+        "threshold": 0.006694041813169555,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.4289003250270856,
+        "rev": "workspace",
+        "threshold": 0.006688596491228069,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.42917118093174433,
+        "rev": "workspace",
+        "threshold": 0.006670206971677559,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.4303900325027086,
+        "rev": "workspace",
+        "threshold": 0.006666666666666667,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.430931744312026,
+        "rev": "workspace",
+        "threshold": 0.006662700104196268,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.4326923076923077,
+        "rev": "workspace",
+        "threshold": 0.006555555555555556,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.43309859154929575,
+        "rev": "workspace",
+        "threshold": 0.006547619047619048,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.4333694474539545,
+        "rev": "workspace",
+        "threshold": 0.006531986531986531,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.4336403033586132,
+        "rev": "workspace",
+        "threshold": 0.006523790536948431,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.43499458288190684,
+        "rev": "workspace",
+        "threshold": 0.0064840714840714835,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.4355362946912243,
+        "rev": "workspace",
+        "threshold": 0.00648148148148148,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.435807150595883,
+        "rev": "workspace",
+        "threshold": 0.00647285484242006,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.43607800650054174,
+        "rev": "workspace",
+        "threshold": 0.0064682539682539685,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.44014084507042256,
+        "rev": "workspace",
+        "threshold": 0.006299603174603175,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.44081798483206935,
+        "rev": "workspace",
+        "threshold": 0.006296296296296296,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.44176598049837484,
+        "rev": "workspace",
+        "threshold": 0.0062551892551892556,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.4431202600216685,
+        "rev": "workspace",
+        "threshold": 0.00625,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.44474539544962083,
+        "rev": "workspace",
+        "threshold": 0.0061594145233851115,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.4450162513542795,
+        "rev": "workspace",
+        "threshold": 0.006153846153846154,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.44623510292524377,
+        "rev": "workspace",
+        "threshold": 0.006121031746031747,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.44664138678223186,
+        "rev": "workspace",
+        "threshold": 0.006111111111111111,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.44731852654387866,
+        "rev": "workspace",
+        "threshold": 0.0060826507694356656,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.44758938244853735,
+        "rev": "workspace",
+        "threshold": 0.006078643578643578,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.44840195016251355,
+        "rev": "workspace",
+        "threshold": 0.0060416666666666665,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.448943661971831,
+        "rev": "workspace",
+        "threshold": 0.0060185185185185185,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.4496208017334778,
+        "rev": "workspace",
+        "threshold": 0.006000280583613918,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.4498916576381365,
+        "rev": "workspace",
+        "threshold": 0.005994152046783626,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.45016251354279524,
+        "rev": "workspace",
+        "threshold": 0.005972340627072085,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.45043336944745394,
+        "rev": "workspace",
+        "threshold": 0.0059722222222222225,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.45083965330444203,
+        "rev": "workspace",
+        "threshold": 0.005960590537922614,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.45124593716143013,
+        "rev": "workspace",
+        "threshold": 0.005952380952380953,
+        "tpr": 0.984
+    },
+    {
+        "fpr": 0.4516522210184182,
+        "rev": "workspace",
+        "threshold": 0.005952380952380951,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.4517876489707476,
+        "rev": "workspace",
+        "threshold": 0.005937499999999999,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.4521939328277356,
+        "rev": "workspace",
+        "threshold": 0.00593584656084656,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.4536836403033586,
+        "rev": "workspace",
+        "threshold": 0.00583994708994709,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.45422535211267606,
+        "rev": "workspace",
+        "threshold": 0.005833333333333333,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.4551733477789816,
+        "rev": "workspace",
+        "threshold": 0.005784313725490196,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.4554442036836403,
+        "rev": "workspace",
+        "threshold": 0.005782828282828283,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.455715059588299,
+        "rev": "workspace",
+        "threshold": 0.005779542811276558,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.45625677139761645,
+        "rev": "workspace",
+        "threshold": 0.005769230769230769,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.45666305525460454,
+        "rev": "workspace",
+        "threshold": 0.005730580693815988,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.4569339111592633,
+        "rev": "workspace",
+        "threshold": 0.005724637681159421,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.45706933911159264,
+        "rev": "workspace",
+        "threshold": 0.005722840755735492,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.45747562296858074,
+        "rev": "workspace",
+        "threshold": 0.005720583023214602,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.459100758396533,
+        "rev": "workspace",
+        "threshold": 0.005624432457956486,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.4593716143011918,
+        "rev": "workspace",
+        "threshold": 0.005618686868686869,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.460590465872156,
+        "rev": "workspace",
+        "threshold": 0.005565268065268065,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.4651950162513543,
+        "rev": "workspace",
+        "threshold": 0.005555555555555555,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.46641386782231853,
+        "rev": "workspace",
+        "threshold": 0.00550925925925926,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.4668201516793066,
+        "rev": "workspace",
+        "threshold": 0.0055059523809523805,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.4677681473456121,
+        "rev": "workspace",
+        "threshold": 0.00545547385620915,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.46803900325027087,
+        "rev": "workspace",
+        "threshold": 0.0054487179487179484,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.47047670639219935,
+        "rev": "workspace",
+        "threshold": 0.005359152285622874,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.47074756229685805,
+        "rev": "workspace",
+        "threshold": 0.005357142857142856,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.47115384615384615,
+        "rev": "workspace",
+        "threshold": 0.005345764486631359,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.4714247020585049,
+        "rev": "workspace",
+        "threshold": 0.005343406593406593,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.47156013001083424,
+        "rev": "workspace",
+        "threshold": 0.005335470085470085,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.47183098591549294,
+        "rev": "workspace",
+        "threshold": 0.005324074074074074,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.47250812567713973,
+        "rev": "workspace",
+        "threshold": 0.005278416257518425,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.47291440953412783,
+        "rev": "workspace",
+        "threshold": 0.005277777777777778,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.4730498374864572,
+        "rev": "workspace",
+        "threshold": 0.005276627559236254,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.47332069339111593,
+        "rev": "workspace",
+        "threshold": 0.005273148148148148,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.4739978331527627,
+        "rev": "workspace",
+        "threshold": 0.005265151515151515,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.4742686890574215,
+        "rev": "workspace",
+        "threshold": 0.0052579365079365075,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.4753521126760563,
+        "rev": "workspace",
+        "threshold": 0.005216025804261099,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.47602925243770317,
+        "rev": "workspace",
+        "threshold": 0.005208333333333333,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.4772481040086674,
+        "rev": "workspace",
+        "threshold": 0.005152090964590964,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.47778981581798485,
+        "rev": "workspace",
+        "threshold": 0.005147058823529412,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.47914409534127844,
+        "rev": "workspace",
+        "threshold": 0.005095378178902207,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.47941495124593714,
+        "rev": "workspace",
+        "threshold": 0.005092592592592593,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.48063380281690143,
+        "rev": "workspace",
+        "threshold": 0.0050442612942612946,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.48090465872156013,
+        "rev": "workspace",
+        "threshold": 0.005043859649122807,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.4818526543878657,
+        "rev": "workspace",
+        "threshold": 0.0050004313319530706,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.4826652221018418,
+        "rev": "workspace",
+        "threshold": 0.005,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.48537378114842905,
+        "rev": "workspace",
+        "threshold": 0.004862725840986711,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.48564463705308775,
+        "rev": "workspace",
+        "threshold": 0.004861111111111111,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.4861863488624052,
+        "rev": "workspace",
+        "threshold": 0.00486111111111111,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.4879469122426869,
+        "rev": "workspace",
+        "threshold": 0.004804846712741449,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.48821776814734563,
+        "rev": "workspace",
+        "threshold": 0.004784080298786182,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.4888949079089924,
+        "rev": "workspace",
+        "threshold": 0.004767628205128205,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.4893011917659805,
+        "rev": "workspace",
+        "threshold": 0.0047619047619047615,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.4898429035752979,
+        "rev": "workspace",
+        "threshold": 0.00474537037037037,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.49011375947995667,
+        "rev": "workspace",
+        "threshold": 0.004741927281973048,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.49079089924160346,
+        "rev": "workspace",
+        "threshold": 0.004729587542087541,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.4916034669555796,
+        "rev": "workspace",
+        "threshold": 0.004722222222222222,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.4924160346695558,
+        "rev": "workspace",
+        "threshold": 0.004688644688644689,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.4926868905742145,
+        "rev": "workspace",
+        "threshold": 0.0046875,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.4934994582881907,
+        "rev": "workspace",
+        "threshold": 0.0046401515151515155,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.4941765980498375,
+        "rev": "workspace",
+        "threshold": 0.00462962962962963,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.49661430119176597,
+        "rev": "workspace",
+        "threshold": 0.0045789006315322105,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.4968851570964247,
+        "rev": "workspace",
+        "threshold": 0.004577020202020202,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.49729144095341277,
+        "rev": "workspace",
+        "threshold": 0.004566137566137566,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.4975622968580715,
+        "rev": "workspace",
+        "threshold": 0.004563492063492064,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.49810400866738896,
+        "rev": "workspace",
+        "threshold": 0.004563492063492063,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.4989165763813651,
+        "rev": "workspace",
+        "threshold": 0.004538545391806261,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.49918743228602386,
+        "rev": "workspace",
+        "threshold": 0.004532375625052971,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.4993228602383532,
+        "rev": "workspace",
+        "threshold": 0.004528985507246377,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.4995937161430119,
+        "rev": "workspace",
+        "threshold": 0.0045238095238095246,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.5008125677139762,
+        "rev": "workspace",
+        "threshold": 0.004482758620689655,
+        "tpr": 0.992
+    },
+    {
+        "fpr": 0.5009479956663055,
+        "rev": "workspace",
+        "threshold": 0.004475308641975308,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5012188515709642,
+        "rev": "workspace",
+        "threshold": 0.004469373219373219,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5014897074756229,
+        "rev": "workspace",
+        "threshold": 0.004464285714285714,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5020314192849404,
+        "rev": "workspace",
+        "threshold": 0.004446198757552331,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5031148429035753,
+        "rev": "workspace",
+        "threshold": 0.0044444444444444444,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.503385698808234,
+        "rev": "workspace",
+        "threshold": 0.004440789473684211,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5050108342361863,
+        "rev": "workspace",
+        "threshold": 0.004375,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5054171180931745,
+        "rev": "workspace",
+        "threshold": 0.004365079365079364,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5056879739978332,
+        "rev": "workspace",
+        "threshold": 0.004359673694039019,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5066359696641387,
+        "rev": "workspace",
+        "threshold": 0.004348544973544973,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5069068255687974,
+        "rev": "workspace",
+        "threshold": 0.004347222222222223,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5073131094257854,
+        "rev": "workspace",
+        "threshold": 0.004336219336219336,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.507854821235103,
+        "rev": "workspace",
+        "threshold": 0.004331694134325713,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5093445287107259,
+        "rev": "workspace",
+        "threshold": 0.004269814853338881,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5096153846153846,
+        "rev": "workspace",
+        "threshold": 0.004266624579124579,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5124593716143012,
+        "rev": "workspace",
+        "threshold": 0.004170534558428847,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5201787648970747,
+        "rev": "workspace",
+        "threshold": 0.004166666666666667,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5211267605633803,
+        "rev": "workspace",
+        "threshold": 0.00412776221599751,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.521397616468039,
+        "rev": "workspace",
+        "threshold": 0.004126984126984127,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.52329360780065,
+        "rev": "workspace",
+        "threshold": 0.004088164251207729,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5238353196099675,
+        "rev": "workspace",
+        "threshold": 0.004074960127591706,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5241061755146262,
+        "rev": "workspace",
+        "threshold": 0.004061624649859944,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5243770314192849,
+        "rev": "workspace",
+        "threshold": 0.00405982905982906,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.524783315276273,
+        "rev": "workspace",
+        "threshold": 0.004053357454092748,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5251895991332611,
+        "rev": "workspace",
+        "threshold": 0.004047619047619047,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5272210184182016,
+        "rev": "workspace",
+        "threshold": 0.003971861471861472,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.527762730227519,
+        "rev": "workspace",
+        "threshold": 0.003968253968253968,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5284398699891658,
+        "rev": "workspace",
+        "threshold": 0.003959286803966438,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5288461538461539,
+        "rev": "workspace",
+        "threshold": 0.003958333333333333,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5304712892741061,
+        "rev": "workspace",
+        "threshold": 0.003896103896103896,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5308775731310943,
+        "rev": "workspace",
+        "threshold": 0.0038888888888888888,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5310130010834236,
+        "rev": "workspace",
+        "threshold": 0.003888634630053394,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5312838569880823,
+        "rev": "workspace",
+        "threshold": 0.003882575757575758,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.531554712892741,
+        "rev": "workspace",
+        "threshold": 0.0038777499303815095,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5320964247020585,
+        "rev": "workspace",
+        "threshold": 0.0038636363636363634,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5326381365113759,
+        "rev": "workspace",
+        "threshold": 0.0038533834586466165,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5329089924160346,
+        "rev": "workspace",
+        "threshold": 0.003851851851851852,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5338569880823402,
+        "rev": "workspace",
+        "threshold": 0.003823529411764706,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.534534127843987,
+        "rev": "workspace",
+        "threshold": 0.0038194444444444443,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5348049837486457,
+        "rev": "workspace",
+        "threshold": 0.003819444444444444,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.536430119176598,
+        "rev": "workspace",
+        "threshold": 0.0037962188777406172,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5367009750812568,
+        "rev": "workspace",
+        "threshold": 0.0037878787878787876,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5376489707475623,
+        "rev": "workspace",
+        "threshold": 0.003752088554720133,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.537919826652221,
+        "rev": "workspace",
+        "threshold": 0.0037500000000000003,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5388678223185266,
+        "rev": "workspace",
+        "threshold": 0.003735557920340529,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5391386782231853,
+        "rev": "workspace",
+        "threshold": 0.0037301587301587303,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5395449620801733,
+        "rev": "workspace",
+        "threshold": 0.003709893048128342,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.539815817984832,
+        "rev": "workspace",
+        "threshold": 0.0037037037037037034,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5402221018418202,
+        "rev": "workspace",
+        "threshold": 0.0036956521739130435,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5407638136511376,
+        "rev": "workspace",
+        "threshold": 0.00369047619047619,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5448266522210184,
+        "rev": "workspace",
+        "threshold": 0.0035771246297562087,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5459100758396533,
+        "rev": "workspace",
+        "threshold": 0.0035714285714285713,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5468580715059588,
+        "rev": "workspace",
+        "threshold": 0.0035468936678614096,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5471289274106176,
+        "rev": "workspace",
+        "threshold": 0.003535353535353535,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5484832069339112,
+        "rev": "workspace",
+        "threshold": 0.0034878542510121454,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5492957746478874,
+        "rev": "workspace",
+        "threshold": 0.003472222222222222,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5502437703141928,
+        "rev": "workspace",
+        "threshold": 0.0034385964912280703,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5505146262188516,
+        "rev": "workspace",
+        "threshold": 0.0034361471861471863,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.550650054171181,
+        "rev": "workspace",
+        "threshold": 0.0034343434343434343,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.551056338028169,
+        "rev": "workspace",
+        "threshold": 0.003431372549019608,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5517334777898159,
+        "rev": "workspace",
+        "threshold": 0.0034109713386029175,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5522751895991332,
+        "rev": "workspace",
+        "threshold": 0.0034100596760443308,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5526814734561214,
+        "rev": "workspace",
+        "threshold": 0.0033984533984533984,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5529523293607801,
+        "rev": "workspace",
+        "threshold": 0.0033950617283950617,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5553900325027086,
+        "rev": "workspace",
+        "threshold": 0.003336940836940837,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5557963163596966,
+        "rev": "workspace",
+        "threshold": 0.003335421888053467,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5586403033586133,
+        "rev": "workspace",
+        "threshold": 0.0033333333333333335,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.558911159263272,
+        "rev": "workspace",
+        "threshold": 0.0033175770308123253,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.55931744312026,
+        "rev": "workspace",
+        "threshold": 0.003314393939393939,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5594528710725893,
+        "rev": "workspace",
+        "threshold": 0.0033096053413390874,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5598591549295775,
+        "rev": "workspace",
+        "threshold": 0.0033068783068783067,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5601300108342362,
+        "rev": "workspace",
+        "threshold": 0.0033038720538720533,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5605362946912242,
+        "rev": "workspace",
+        "threshold": 0.0033036606696651674,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5614842903575298,
+        "rev": "workspace",
+        "threshold": 0.0032795055821371612,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5618905742145178,
+        "rev": "workspace",
+        "threshold": 0.003273809523809524,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5621614301191766,
+        "rev": "workspace",
+        "threshold": 0.0032628824476650564,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5624322860238353,
+        "rev": "workspace",
+        "threshold": 0.0032614522417153996,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5628385698808234,
+        "rev": "workspace",
+        "threshold": 0.0032407407407407406,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5631094257854822,
+        "rev": "workspace",
+        "threshold": 0.00324074074074074,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.564192849404117,
+        "rev": "workspace",
+        "threshold": 0.003206168831168831,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5647345612134345,
+        "rev": "workspace",
+        "threshold": 0.0031986531986531986,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5655471289274107,
+        "rev": "workspace",
+        "threshold": 0.0031608187134502925,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5658179848320694,
+        "rev": "workspace",
+        "threshold": 0.0031565656565656565,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.566088840736728,
+        "rev": "workspace",
+        "threshold": 0.0031469298245614037,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5664951245937161,
+        "rev": "workspace",
+        "threshold": 0.0031432748538011692,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5673076923076923,
+        "rev": "workspace",
+        "threshold": 0.003132974111234981,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5679848320693391,
+        "rev": "workspace",
+        "threshold": 0.003125,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5681202600216685,
+        "rev": "workspace",
+        "threshold": 0.0031218228031953525,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5683911159263272,
+        "rev": "workspace",
+        "threshold": 0.003111111111111111,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5704225352112676,
+        "rev": "workspace",
+        "threshold": 0.003030545843045843,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5712351029252438,
+        "rev": "workspace",
+        "threshold": 0.0030303030303030303,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5740790899241603,
+        "rev": "workspace",
+        "threshold": 0.002952895058158216,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5746208017334777,
+        "rev": "workspace",
+        "threshold": 0.002948717948717949,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5766522210184182,
+        "rev": "workspace",
+        "threshold": 0.0028813700918964074,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5771939328277357,
+        "rev": "workspace",
+        "threshold": 0.0028769841269841267,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5778710725893824,
+        "rev": "workspace",
+        "threshold": 0.0028628812636165577,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5781419284940412,
+        "rev": "workspace",
+        "threshold": 0.0028623188405797104,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5782773564463706,
+        "rev": "workspace",
+        "threshold": 0.00285786251259397,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.579225352112676,
+        "rev": "workspace",
+        "threshold": 0.002857142857142857,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5794962080173348,
+        "rev": "workspace",
+        "threshold": 0.0028542673107890496,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5797670639219935,
+        "rev": "workspace",
+        "threshold": 0.002843915343915344,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5815276273022751,
+        "rev": "workspace",
+        "threshold": 0.002777777777777778,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5866738894907909,
+        "rev": "workspace",
+        "threshold": 0.0027777777777777775,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5868093174431203,
+        "rev": "workspace",
+        "threshold": 0.0027773525064546736,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.587080173347779,
+        "rev": "workspace",
+        "threshold": 0.002769151138716356,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5872156013001083,
+        "rev": "workspace",
+        "threshold": 0.0027683080808080804,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5876218851570965,
+        "rev": "workspace",
+        "threshold": 0.0027661064425770305,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5882990249187432,
+        "rev": "workspace",
+        "threshold": 0.002751473063973064,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.588569880823402,
+        "rev": "workspace",
+        "threshold": 0.0027500000000000003,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.58897616468039,
+        "rev": "workspace",
+        "threshold": 0.002727272727272727,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5895178764897074,
+        "rev": "workspace",
+        "threshold": 0.002726423902894491,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.590465872156013,
+        "rev": "workspace",
+        "threshold": 0.002711323763955343,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5908721560130011,
+        "rev": "workspace",
+        "threshold": 0.0027087646652864043,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5914138678223185,
+        "rev": "workspace",
+        "threshold": 0.0027083333333333334,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5930390032502708,
+        "rev": "workspace",
+        "threshold": 0.0026610644257703078,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5933098591549296,
+        "rev": "workspace",
+        "threshold": 0.0026570512820512818,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5937161430119177,
+        "rev": "workspace",
+        "threshold": 0.0026473063973063973,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5941224268689057,
+        "rev": "workspace",
+        "threshold": 0.002638888888888889,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5943932827735645,
+        "rev": "workspace",
+        "threshold": 0.0026274651274651273,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5947995666305526,
+        "rev": "workspace",
+        "threshold": 0.002625152625152625,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5950704225352113,
+        "rev": "workspace",
+        "threshold": 0.002619949494949495,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.59534127843987,
+        "rev": "workspace",
+        "threshold": 0.0026198257080610023,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5956121343445288,
+        "rev": "workspace",
+        "threshold": 0.002605263157894737,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5964247020585048,
+        "rev": "workspace",
+        "threshold": 0.0026041666666666665,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5973726977248104,
+        "rev": "workspace",
+        "threshold": 0.0025808080808080807,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5976435536294691,
+        "rev": "workspace",
+        "threshold": 0.002573529411764706,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5984561213434453,
+        "rev": "workspace",
+        "threshold": 0.002564102564102564,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5992686890574215,
+        "rev": "workspace",
+        "threshold": 0.0025462962962962965,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.5998104008667389,
+        "rev": "workspace",
+        "threshold": 0.00253968253968254,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6006229685807151,
+        "rev": "workspace",
+        "threshold": 0.0025168350168350167,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6008938244853738,
+        "rev": "workspace",
+        "threshold": 0.0025122549019607845,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6010292524377031,
+        "rev": "workspace",
+        "threshold": 0.0025104669887278585,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6013001083423619,
+        "rev": "workspace",
+        "threshold": 0.002506265664160401,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6014355362946913,
+        "rev": "workspace",
+        "threshold": 0.0025022045855379186,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6018418201516793,
+        "rev": "workspace",
+        "threshold": 0.0025000000000000005,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6027898158179849,
+        "rev": "workspace",
+        "threshold": 0.0025,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6034669555796316,
+        "rev": "workspace",
+        "threshold": 0.002466374269005848,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6037378114842904,
+        "rev": "workspace",
+        "threshold": 0.0024621212121212124,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6038732394366197,
+        "rev": "workspace",
+        "threshold": 0.002461677814938684,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6041440953412784,
+        "rev": "workspace",
+        "threshold": 0.0024603174603174604,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6042795232936078,
+        "rev": "workspace",
+        "threshold": 0.0024537037037037036,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6046858071505958,
+        "rev": "workspace",
+        "threshold": 0.0024509803921568627,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6048212351029253,
+        "rev": "workspace",
+        "threshold": 0.0024470899470899468,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.605092091007584,
+        "rev": "workspace",
+        "threshold": 0.002446581196581197,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.605498374864572,
+        "rev": "workspace",
+        "threshold": 0.0024387254901960787,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6059046587215602,
+        "rev": "workspace",
+        "threshold": 0.002430555555555555,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6061755146262189,
+        "rev": "workspace",
+        "threshold": 0.0024242424242424242,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6067172264355363,
+        "rev": "workspace",
+        "threshold": 0.0023919753086419754,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.608477789815818,
+        "rev": "workspace",
+        "threshold": 0.0023809523809523807,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6086132177681474,
+        "rev": "workspace",
+        "threshold": 0.002372685185185185,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6090195016251354,
+        "rev": "workspace",
+        "threshold": 0.002361111111111111,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6096966413867823,
+        "rev": "workspace",
+        "threshold": 0.002337962962962963,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.610373781148429,
+        "rev": "workspace",
+        "threshold": 0.0023369565217391305,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6110509209100758,
+        "rev": "workspace",
+        "threshold": 0.0023243999693275054,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6113217768147345,
+        "rev": "workspace",
+        "threshold": 0.002322984749455338,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6122697724810401,
+        "rev": "workspace",
+        "threshold": 0.002314814814814815,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6128114842903575,
+        "rev": "workspace",
+        "threshold": 0.002307692307692308,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6130823401950163,
+        "rev": "workspace",
+        "threshold": 0.0022961816305469554,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.613353196099675,
+        "rev": "workspace",
+        "threshold": 0.0022916666666666667,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6138949079089924,
+        "rev": "workspace",
+        "threshold": 0.0022742518059855523,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6147074756229686,
+        "rev": "workspace",
+        "threshold": 0.0022727272727272726,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6156554712892741,
+        "rev": "workspace",
+        "threshold": 0.002256258234519104,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6161971830985915,
+        "rev": "workspace",
+        "threshold": 0.002243589743589744,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6164680390032503,
+        "rev": "workspace",
+        "threshold": 0.0022337962962962962,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.616738894907909,
+        "rev": "workspace",
+        "threshold": 0.002232142857142857,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6170097508125677,
+        "rev": "workspace",
+        "threshold": 0.0022271774206758725,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6176868905742146,
+        "rev": "workspace",
+        "threshold": 0.0022222222222222222,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6184994582881906,
+        "rev": "workspace",
+        "threshold": 0.0022023809523809526,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6189057421451788,
+        "rev": "workspace",
+        "threshold": 0.0021929824561403508,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6190411700975081,
+        "rev": "workspace",
+        "threshold": 0.0021876808108692164,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6194474539544962,
+        "rev": "workspace",
+        "threshold": 0.0021875,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6198537378114843,
+        "rev": "workspace",
+        "threshold": 0.0021829710144927535,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.620124593716143,
+        "rev": "workspace",
+        "threshold": 0.002182539682539682,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6206663055254604,
+        "rev": "workspace",
+        "threshold": 0.002165032679738562,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6210725893824486,
+        "rev": "workspace",
+        "threshold": 0.002157738095238095,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6214788732394366,
+        "rev": "workspace",
+        "threshold": 0.002148033126293996,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6217497291440953,
+        "rev": "workspace",
+        "threshold": 0.0021437198067632847,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6218851570964247,
+        "rev": "workspace",
+        "threshold": 0.0021331738437001596,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6222914409534128,
+        "rev": "workspace",
+        "threshold": 0.002130924630924631,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6228331527627302,
+        "rev": "workspace",
+        "threshold": 0.0021296296296296293,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6229685807150596,
+        "rev": "workspace",
+        "threshold": 0.002116402116402116,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6232394366197183,
+        "rev": "workspace",
+        "threshold": 0.0021135265700483095,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6244582881906826,
+        "rev": "workspace",
+        "threshold": 0.0020877849002849,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6291982665222102,
+        "rev": "workspace",
+        "threshold": 0.0020833333333333333,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6294691224268689,
+        "rev": "workspace",
+        "threshold": 0.002075351213282248,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.629875406283857,
+        "rev": "workspace",
+        "threshold": 0.0020642701525054466,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6302816901408451,
+        "rev": "workspace",
+        "threshold": 0.0020634920634920637,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6304171180931745,
+        "rev": "workspace",
+        "threshold": 0.0020622895622895623,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6306879739978332,
+        "rev": "workspace",
+        "threshold": 0.0020454545454545456,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6308234019501625,
+        "rev": "workspace",
+        "threshold": 0.0020436507936507937,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6310942578548212,
+        "rev": "workspace",
+        "threshold": 0.0020404271548436306,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6316359696641387,
+        "rev": "workspace",
+        "threshold": 0.002037037037037037,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6319068255687974,
+        "rev": "workspace",
+        "threshold": 0.002029505582137161,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6320422535211268,
+        "rev": "workspace",
+        "threshold": 0.002028985507246377,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6323131094257854,
+        "rev": "workspace",
+        "threshold": 0.002025462962962963,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6329902491874323,
+        "rev": "workspace",
+        "threshold": 0.0020010964912280703,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6333965330444203,
+        "rev": "workspace",
+        "threshold": 0.002,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6338028169014085,
+        "rev": "workspace",
+        "threshold": 0.0019871794871794872,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6340736728060672,
+        "rev": "workspace",
+        "threshold": 0.001984126984126984,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6346153846153846,
+        "rev": "workspace",
+        "threshold": 0.001970108695652174,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6350216684723727,
+        "rev": "workspace",
+        "threshold": 0.0019675925925925924,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6354279523293608,
+        "rev": "workspace",
+        "threshold": 0.001948051948051948,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6358342361863488,
+        "rev": "workspace",
+        "threshold": 0.0019444444444444444,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6363759479956663,
+        "rev": "workspace",
+        "threshold": 0.001929337231968811,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.636646803900325,
+        "rev": "workspace",
+        "threshold": 0.0019230769230769232,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6367822318526544,
+        "rev": "workspace",
+        "threshold": 0.0019202898550724637,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6370530877573131,
+        "rev": "workspace",
+        "threshold": 0.0019151138716356107,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6377302275189599,
+        "rev": "workspace",
+        "threshold": 0.001905539993775288,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6382719393282773,
+        "rev": "workspace",
+        "threshold": 0.0018939393939393938,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6384073672806068,
+        "rev": "workspace",
+        "threshold": 0.0018906166932482723,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6386782231852655,
+        "rev": "workspace",
+        "threshold": 0.0018878718535469106,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6388136511375948,
+        "rev": "workspace",
+        "threshold": 0.001884920634920635,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6397616468039004,
+        "rev": "workspace",
+        "threshold": 0.0018849206349206347,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6409804983748646,
+        "rev": "workspace",
+        "threshold": 0.001853423882286361,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6434182015167931,
+        "rev": "workspace",
+        "threshold": 0.0018518518518518517,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.644501625135428,
+        "rev": "workspace",
+        "threshold": 0.001815814044916212,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6447724810400867,
+        "rev": "workspace",
+        "threshold": 0.0018055555555555557,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6454496208017335,
+        "rev": "workspace",
+        "threshold": 0.00179085541404382,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.646397616468039,
+        "rev": "workspace",
+        "threshold": 0.0017857142857142857,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6465330444203684,
+        "rev": "workspace",
+        "threshold": 0.001782329988851728,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6468039003250271,
+        "rev": "workspace",
+        "threshold": 0.0017722473604826548,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6477518959913326,
+        "rev": "workspace",
+        "threshold": 0.0017719298245614035,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6480227518959913,
+        "rev": "workspace",
+        "threshold": 0.0017676767676767676,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6484290357529794,
+        "rev": "workspace",
+        "threshold": 0.001766304347826087,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6488353196099675,
+        "rev": "workspace",
+        "threshold": 0.0017460317460317458,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6491061755146262,
+        "rev": "workspace",
+        "threshold": 0.001736111111111111,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6493770314192849,
+        "rev": "workspace",
+        "threshold": 0.001724439775910364,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6496478873239436,
+        "rev": "workspace",
+        "threshold": 0.0017206477732793523,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6500541711809318,
+        "rev": "workspace",
+        "threshold": 0.0017170055821371611,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6501895991332611,
+        "rev": "workspace",
+        "threshold": 0.0017113095238095238,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6504604550379198,
+        "rev": "workspace",
+        "threshold": 0.0017105263157894738,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6511375947995667,
+        "rev": "workspace",
+        "threshold": 0.00168859649122807,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6514084507042254,
+        "rev": "workspace",
+        "threshold": 0.0016835016835016834,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6515438786565547,
+        "rev": "workspace",
+        "threshold": 0.0016826923076923078,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6520855904658721,
+        "rev": "workspace",
+        "threshold": 0.0016806722689075631,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6523564463705309,
+        "rev": "workspace",
+        "threshold": 0.0016781083142639206,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.652762730227519,
+        "rev": "workspace",
+        "threshold": 0.001670843776106934,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6591278439869989,
+        "rev": "workspace",
+        "threshold": 0.0016666666666666668,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6592632719393283,
+        "rev": "workspace",
+        "threshold": 0.0016591352117667907,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6598049837486457,
+        "rev": "workspace",
+        "threshold": 0.001636904761904762,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6600758396533044,
+        "rev": "workspace",
+        "threshold": 0.0016342486651411137,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6603466955579632,
+        "rev": "workspace",
+        "threshold": 0.0016290726817042606,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6604821235102926,
+        "rev": "workspace",
+        "threshold": 0.0016248219373219373,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6611592632719393,
+        "rev": "workspace",
+        "threshold": 0.00162037037037037,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6612946912242686,
+        "rev": "workspace",
+        "threshold": 0.0016182997018237292,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6617009750812568,
+        "rev": "workspace",
+        "threshold": 0.001607142857142857,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6619718309859155,
+        "rev": "workspace",
+        "threshold": 0.0015985825768434464,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6626489707475623,
+        "rev": "workspace",
+        "threshold": 0.0015960038986354776,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6634615384615384,
+        "rev": "workspace",
+        "threshold": 0.001574074074074074,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6638678223185266,
+        "rev": "workspace",
+        "threshold": 0.0015692640692640694,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6641386782231853,
+        "rev": "workspace",
+        "threshold": 0.0015669515669515669,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.664815817984832,
+        "rev": "workspace",
+        "threshold": 0.0015625,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6653575297941495,
+        "rev": "workspace",
+        "threshold": 0.0015527950310559005,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6656283856988082,
+        "rev": "workspace",
+        "threshold": 0.0015497076023391813,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6658992416034669,
+        "rev": "workspace",
+        "threshold": 0.0015359477124183007,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6661700975081257,
+        "rev": "workspace",
+        "threshold": 0.0015318627450980394,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6665763813651138,
+        "rev": "workspace",
+        "threshold": 0.0015238095238095239,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6679306608884074,
+        "rev": "workspace",
+        "threshold": 0.0015151515151515152,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6683369447453954,
+        "rev": "workspace",
+        "threshold": 0.0015104166666666669,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6684723726977249,
+        "rev": "workspace",
+        "threshold": 0.0015046296296296296,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6687432286023836,
+        "rev": "workspace",
+        "threshold": 0.0014991181657848323,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6691495124593716,
+        "rev": "workspace",
+        "threshold": 0.0014724310776942356,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6695557963163596,
+        "rev": "workspace",
+        "threshold": 0.0014705882352941178,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6702329360780065,
+        "rev": "workspace",
+        "threshold": 0.001451734539969834,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.670774647887324,
+        "rev": "workspace",
+        "threshold": 0.0014467592592592592,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.671180931744312,
+        "rev": "workspace",
+        "threshold": 0.0014384920634920634,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6714517876489707,
+        "rev": "workspace",
+        "threshold": 0.0014327485380116957,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6717226435536294,
+        "rev": "workspace",
+        "threshold": 0.0014285714285714286,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6721289274106176,
+        "rev": "workspace",
+        "threshold": 0.0014204545454545455,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6723997833152763,
+        "rev": "workspace",
+        "threshold": 0.0014190821256038647,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6725352112676056,
+        "rev": "workspace",
+        "threshold": 0.0013980263157894737,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6730769230769231,
+        "rev": "workspace",
+        "threshold": 0.0013970588235294118,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6778169014084507,
+        "rev": "workspace",
+        "threshold": 0.0013888888888888887,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6782231852654388,
+        "rev": "workspace",
+        "threshold": 0.0013748597081930415,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6784940411700975,
+        "rev": "workspace",
+        "threshold": 0.0013698257080610023,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6793066088840737,
+        "rev": "workspace",
+        "threshold": 0.0013401559454191032,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6797128927410617,
+        "rev": "workspace",
+        "threshold": 0.0013333333333333333,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.680931744312026,
+        "rev": "workspace",
+        "threshold": 0.0013157894736842105,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6810671722643553,
+        "rev": "workspace",
+        "threshold": 0.0013087606837606837,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6813380281690141,
+        "rev": "workspace",
+        "threshold": 0.0013047138047138048,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6817443120260022,
+        "rev": "workspace",
+        "threshold": 0.0012962962962962963,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6821505958829902,
+        "rev": "workspace",
+        "threshold": 0.0012830009496676163,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6849945828819068,
+        "rev": "workspace",
+        "threshold": 0.001282051282051282,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6855362946912242,
+        "rev": "workspace",
+        "threshold": 0.001278409090909091,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.685807150595883,
+        "rev": "workspace",
+        "threshold": 0.001273148148148148,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6864842903575298,
+        "rev": "workspace",
+        "threshold": 0.0012719298245614035,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6868905742145178,
+        "rev": "workspace",
+        "threshold": 0.0012566137566137566,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.687703141928494,
+        "rev": "workspace",
+        "threshold": 0.0012500000000000002,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6890574214517876,
+        "rev": "workspace",
+        "threshold": 0.00125,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6900054171180932,
+        "rev": "workspace",
+        "threshold": 0.00124777183600713,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6901408450704225,
+        "rev": "workspace",
+        "threshold": 0.0012454710144927535,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6904117009750813,
+        "rev": "workspace",
+        "threshold": 0.0012362637362637362,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6908179848320694,
+        "rev": "workspace",
+        "threshold": 0.0012313027977989615,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.691088840736728,
+        "rev": "workspace",
+        "threshold": 0.0012301587301587302,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6914951245937161,
+        "rev": "workspace",
+        "threshold": 0.0012205387205387204,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6917659804983749,
+        "rev": "workspace",
+        "threshold": 0.0012175819984744471,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6919014084507042,
+        "rev": "workspace",
+        "threshold": 0.0012103174603174602,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6928494041170098,
+        "rev": "workspace",
+        "threshold": 0.0011961722488038277,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6929848320693391,
+        "rev": "workspace",
+        "threshold": 0.0011956521739130434,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.699349945828819,
+        "rev": "workspace",
+        "threshold": 0.0011904761904761904,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.6998916576381365,
+        "rev": "workspace",
+        "threshold": 0.001184640522875817,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7001625135427952,
+        "rev": "workspace",
+        "threshold": 0.0011742424242424244,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7005687973997833,
+        "rev": "workspace",
+        "threshold": 0.0011618589743589744,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7007042253521126,
+        "rev": "workspace",
+        "threshold": 0.0011574074074074076,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7009750812567714,
+        "rev": "workspace",
+        "threshold": 0.0011559696342305038,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7012459371614301,
+        "rev": "workspace",
+        "threshold": 0.0011408730158730157,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7019230769230769,
+        "rev": "workspace",
+        "threshold": 0.0011363636363636363,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7020585048754063,
+        "rev": "workspace",
+        "threshold": 0.001133923778851315,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.702329360780065,
+        "rev": "workspace",
+        "threshold": 0.0011330409356725144,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7024647887323944,
+        "rev": "workspace",
+        "threshold": 0.0011312217194570137,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7027356446370531,
+        "rev": "workspace",
+        "threshold": 0.001126984126984127,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7031419284940412,
+        "rev": "workspace",
+        "threshold": 0.0011206896551724137,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7032773564463706,
+        "rev": "workspace",
+        "threshold": 0.0011198945981554678,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7049024918743229,
+        "rev": "workspace",
+        "threshold": 0.0011111111111111111,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7051733477789816,
+        "rev": "workspace",
+        "threshold": 0.001103988603988604,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7053087757313109,
+        "rev": "workspace",
+        "threshold": 0.0010869565217391304,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7058504875406284,
+        "rev": "workspace",
+        "threshold": 0.0010796221322537112,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7059859154929577,
+        "rev": "workspace",
+        "threshold": 0.0010718599033816424,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7062567713976164,
+        "rev": "workspace",
+        "threshold": 0.0010662177328843996,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7066630552546046,
+        "rev": "workspace",
+        "threshold": 0.0010567632850241547,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7069339111592633,
+        "rev": "workspace",
+        "threshold": 0.0010454545454545454,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7116738894907909,
+        "rev": "workspace",
+        "threshold": 0.0010416666666666667,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.712080173347779,
+        "rev": "workspace",
+        "threshold": 0.0010332796564680622,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7128927410617552,
+        "rev": "workspace",
+        "threshold": 0.0010119047619047618,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7130281690140845,
+        "rev": "workspace",
+        "threshold": 0.001011029411764706,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7134344528710725,
+        "rev": "workspace",
+        "threshold": 0.0010033444816053513,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.713569880823402,
+        "rev": "workspace",
+        "threshold": 0.0010030864197530863,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7138407367280607,
+        "rev": "workspace",
+        "threshold": 0.001,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.71397616468039,
+        "rev": "workspace",
+        "threshold": 0.0009960718294051627,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7143824485373781,
+        "rev": "workspace",
+        "threshold": 0.0009837962962962962,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7158721560130011,
+        "rev": "workspace",
+        "threshold": 0.000980392156862745,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7164138678223185,
+        "rev": "workspace",
+        "threshold": 0.0009722222222222222,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7170910075839654,
+        "rev": "workspace",
+        "threshold": 0.0009615384615384616,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7173618634886241,
+        "rev": "workspace",
+        "threshold": 0.0009594298245614035,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7174972914409534,
+        "rev": "workspace",
+        "threshold": 0.0009531590413943355,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7183098591549296,
+        "rev": "workspace",
+        "threshold": 0.0009343434343434344,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7230498374864572,
+        "rev": "workspace",
+        "threshold": 0.0009259259259259259,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7234561213434453,
+        "rev": "workspace",
+        "threshold": 0.0009015594541910331,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7238624052004333,
+        "rev": "workspace",
+        "threshold": 0.0008996212121212122,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7239978331527628,
+        "rev": "workspace",
+        "threshold": 0.0008888888888888888,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7245395449620802,
+        "rev": "workspace",
+        "threshold": 0.0008796296296296296,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7263001083423619,
+        "rev": "workspace",
+        "threshold": 0.0008771929824561403,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7264355362946913,
+        "rev": "workspace",
+        "threshold": 0.0008689839572192514,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7268418201516793,
+        "rev": "workspace",
+        "threshold": 0.0008597883597883597,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.727112676056338,
+        "rev": "workspace",
+        "threshold": 0.0008552631578947369,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7273835319609967,
+        "rev": "workspace",
+        "threshold": 0.0008374183006535948,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7298212351029253,
+        "rev": "workspace",
+        "threshold": 0.0008333333333333334,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7306338028169014,
+        "rev": "workspace",
+        "threshold": 0.0008009153318077803,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7310400866738895,
+        "rev": "workspace",
+        "threshold": 0.0007988380537400145,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7313109425785482,
+        "rev": "workspace",
+        "threshold": 0.0007954545454545455,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7352383531960996,
+        "rev": "workspace",
+        "threshold": 0.0007936507936507937,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7356446370530878,
+        "rev": "workspace",
+        "threshold": 0.0007716049382716049,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7359154929577465,
+        "rev": "workspace",
+        "threshold": 0.000759144237405107,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7424160346695557,
+        "rev": "workspace",
+        "threshold": 0.0007575757575757576,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7428223185265439,
+        "rev": "workspace",
+        "threshold": 0.0007411067193675889,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7429577464788732,
+        "rev": "workspace",
+        "threshold": 0.0007253086419753087,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7448537378114843,
+        "rev": "workspace",
+        "threshold": 0.0007246376811594203,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7497291440953413,
+        "rev": "workspace",
+        "threshold": 0.0006944444444444444,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7498645720476707,
+        "rev": "workspace",
+        "threshold": 0.0006828316610925307,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7506771397616468,
+        "rev": "workspace",
+        "threshold": 0.0006666666666666666,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7535211267605634,
+        "rev": "workspace",
+        "threshold": 0.000641025641025641,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7539274106175514,
+        "rev": "workspace",
+        "threshold": 0.0006172839506172839,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7567713976164681,
+        "rev": "workspace",
+        "threshold": 0.0005952380952380952,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7590736728060672,
+        "rev": "workspace",
+        "threshold": 0.0005555555555555556,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7593445287107259,
+        "rev": "workspace",
+        "threshold": 0.0005376344086021505,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7639490790899242,
+        "rev": "workspace",
+        "threshold": 0.0005208333333333333,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7690953412784398,
+        "rev": "workspace",
+        "threshold": 0.0004901960784313725,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7749187432286024,
+        "rev": "workspace",
+        "threshold": 0.0004629629629629629,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7787107258938245,
+        "rev": "workspace",
+        "threshold": 0.00043859649122807013,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7833152762730228,
+        "rev": "workspace",
+        "threshold": 0.0004166666666666667,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7880552546045504,
+        "rev": "workspace",
+        "threshold": 0.0003968253968253968,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7910346695557963,
+        "rev": "workspace",
+        "threshold": 0.0003787878787878788,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.793201516793066,
+        "rev": "workspace",
+        "threshold": 0.00036231884057971015,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7941495124593716,
+        "rev": "workspace",
+        "threshold": 0.0003472222222222222,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.795774647887324,
+        "rev": "workspace",
+        "threshold": 0.0003333333333333333,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7967226435536294,
+        "rev": "workspace",
+        "threshold": 0.00030864197530864197,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 0.7972643553629469,
+        "rev": "workspace",
+        "threshold": 0.00028735632183908046,
+        "tpr": 1.0
+    },
+    {
+        "fpr": 1.0,
+        "rev": "workspace",
+        "threshold": 0.0,
+        "tpr": 1.0
+    }
+]
+    },
+    "title": "roc.json",
+    "width": 300,
+    "height": 300,
+    "params": [
+        {
+            "name": "smooth",
+            "value": 0.001,
+            "bind": {
+                "input": "range",
+                "min": 0.001,
+                "max": 1,
+                "step": 0.001
+            }
+        }
+    ],
+    "layer": [
+        {
+            "mark": "line",
+            "encoding": {
+                "x": {
+                    "field": "fpr",
+                    "type": "quantitative",
+                    "title": "fpr"
+                },
+                "y": {
+                    "field": "tpr",
+                    "type": "quantitative",
+                    "title": "tpr",
+                    "scale": {
+                        "zero": false
+                    }
+                },
+                "color": {
+                    "field": "rev",
+                    "type": "nominal"
+                }
+            },
+            "transform": [
+                {
+                    "loess": "tpr",
+                    "on": "fpr",
+                    "groupby": [
+                        "rev",
+                        "filename",
+                        "field",
+                        "filename::field"
+                    ],
+                    "bandwidth": {
+                        "signal": "smooth"
+                    }
+                }
+            ]
+        },
+        {
+            "mark": {
+                "type": "point",
+                "tooltip": {
+                    "content": "data"
+                }
+            },
+            "encoding": {
+                "x": {
+                    "field": "fpr",
+                    "type": "quantitative",
+                    "title": "fpr"
+                },
+                "y": {
+                    "field": "tpr",
+                    "type": "quantitative",
+                    "title": "tpr",
+                    "scale": {
+                        "zero": false
+                    }
+                },
+                "color": {
+                    "field": "rev",
+                    "type": "nominal"
+                }
+            }
+        }
+    ]
+}
+;
+            vegaEmbed('#roc_json', spec);
+        </script>
+    </div>
+    
+</body>
+</html>

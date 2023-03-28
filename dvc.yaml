@@ -20,12 +20,11 @@ stages:
     outs:
       - artifacts/prepared/train.tsv
       - artifacts/prepared/test.tsv
-
+ 
   featurization:
     cmd: python3 src/stage_03_featurization.py --config=config.yaml --params=params.yaml
     deps: 
-      - src/stage_01_get_data.py
-      - src/stage_02_prepare.py
+      - src/stage_03_featurization.py
       - config.yaml
     params:
       - featurize.max_featurize
@@ -44,7 +43,7 @@ stages:
       - config.yaml
     params:
       - train.seed
-      - train.n_est  
+      - train.n_est
       - train.min_split  
     outs:
       - artifacts/model/model.pkl

@@ -1,9 +1,9 @@
 get_data_rapid_api: python3 get_data.py
 
 RapidApi:
-  api_url: https://stack_overflow_data.p.rapidapi.com/xml_data
+  api_url: https://stack_overflow_data1.p.rapidapi.com/xml_data
   api_header_key: c12a4fcf8emshf19712541926cdcp19ec27jsn683bd634421e
-  api_header_host: stack_overflow_data.p.rapidapi.com
+  api_header_host: stack_overflow_data1.p.rapidapi.com
 
 
 artifacts:
