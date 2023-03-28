@@ -1,0 +1,9 @@
+pandas
+numpy
+pyyaml
+dvc[s3]
+scikit-learn
+flask 
+flask-cors
+python-dotenv
+xmltodict

@@ -1,0 +1,28 @@
+get_data_rapid_api: python3 get_data.py
+
+RapidApi:
+  api_url: https://stack_overflow_data.p.rapidapi.com/xml_data
+  api_header_key: c12a4fcf8emshf19712541926cdcp19ec27jsn683bd634421e
+  api_header_host: stack_overflow_data.p.rapidapi.com
+
+
+artifacts:
+  ARTIFACTS_DIR: artifacts
+  PREPARED_DATA: prepared
+  TRAIN_DATA: train.tsv
+  TEST_DATA: test.tsv
+  FEATURIZED_DATA: features
+  FEATURIZED_TRAIN_DATA: train.pkl
+  FEATURIZED_TEST_DATA: test.pkl
+  MODEL_DIR: model
+  MODEL_NAME: model.pkl
+  metrics: 
+    SCORES:
+      scores.json
+  plots:
+    PRC: prc.json
+    ROC: roc.json
+
+source_download_dir:
+  download_dir: data
+  data_file: stack_overflow_queries.xml
