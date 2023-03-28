@@ -1,6 +1,6 @@
 train_test:
-  split: 0.3
-  seed: 2122
+  split: 0.4
+  seed: 3122
 
 featurize:
   max_featurize: 2500
