@@ -39,3 +39,23 @@ stages:
     - path: artifacts/prepared/train.tsv
       md5: 6c59f0e70310d77a83111cc1cbaa1652
       size: 16727792
+  featurization:
+    cmd: python3 src/stage_03_featurization.py --config=config.yaml --params=params.yaml
+    deps:
+    - path: config.yaml
+      md5: fba5f0dd6bc635153d12e16738a04cc8
+      size: 660
+    - path: src/stage_03_featurization.py
+      md5: 67b6dd318183d202eca50d1f73f30a14
+      size: 2454
+    params:
+      params.yaml:
+        featurize.max_featurize: 2500
+        featurize.ngrams: 2
+    outs:
+    - path: artifacts/features/test.pkl
+      md5: 6442574ee55ca920ff10a7556dca64eb
+      size: 3652028
+    - path: artifacts/features/train.pkl
+      md5: da52630c99a551d6f9cdb86caeea9314
+      size: 8604652
