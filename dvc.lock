@@ -83,3 +83,31 @@ stages:
     - path: artifacts/model/model.pkl
       md5: 4df1870219d0b88d20c4af97361bac06
       size: 3948377
+  stage_05_evaluate:
+    cmd: python src/stage_05_model_evaluate.py --config=config.yaml
+    deps:
+    - path: artifacts/features/test.pkl
+      md5: 6442574ee55ca920ff10a7556dca64eb
+      size: 3652028
+    - path: artifacts/model/model.pkl
+      md5: 4df1870219d0b88d20c4af97361bac06
+      size: 3948377
+    - path: config.yaml
+      md5: fba5f0dd6bc635153d12e16738a04cc8
+      size: 660
+    - path: src/stage_05_model_evaluate.py
+      md5: a52bdd9875246985cb385cf70bf2f499
+      size: 2096
+    - path: utils.py
+      md5: ab49b01bde24c0b969e84ce2b6b764f8
+      size: 2836
+    outs:
+    - path: prc.json
+      md5: e2bb5001fb9ad43f5edaf398d21236fa
+      size: 8579
+    - path: roc.json
+      md5: 129e52f0140471ea24221d8639117c6a
+      size: 68897
+    - path: scores.json
+      md5: eb94162b1366e9a6c536136226b40b40
+      size: 84
