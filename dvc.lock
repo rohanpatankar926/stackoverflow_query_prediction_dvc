@@ -1,0 +1,41 @@
+schema: '2.0'
+stages:
+  get_data:
+    cmd: python3 src/stage_01_get_data.py --config=config.yaml
+    deps:
+    - path: config.yaml
+      md5: fba5f0dd6bc635153d12e16738a04cc8
+      size: 660
+    - path: src/stage_01_get_data.py
+      md5: ef42e2ac7b9578852f41649354495b86
+      size: 1250
+    - path: utils.py
+      md5: ab49b01bde24c0b969e84ce2b6b764f8
+      size: 2836
+    outs:
+    - path: artifacts/data/stack_overflow_queries.xml
+      md5: d0e0e169d55954d2bd3af45565e8910a
+      size: 37841859
+  prepare_data:
+    cmd: python3 src/stage_02_prepare.py --config=config.yaml --params=params.yaml
+    deps:
+    - path: config.yaml
+      md5: fba5f0dd6bc635153d12e16738a04cc8
+      size: 660
+    - path: src/stage_02_prepare.py
+      md5: 866e24db590441fa5fa2c910a569bf78
+      size: 1636
+    - path: utils.py
+      md5: ab49b01bde24c0b969e84ce2b6b764f8
+      size: 2836
+    params:
+      params.yaml:
+        train_test.seed: 2122
+        train_test.split: 0.3
+    outs:
+    - path: artifacts/prepared/test.tsv
+      md5: 70b35d65f57ae768a98af445eef6a1fb
+      size: 7133521
+    - path: artifacts/prepared/train.tsv
+      md5: 6c59f0e70310d77a83111cc1cbaa1652
+      size: 16727792
