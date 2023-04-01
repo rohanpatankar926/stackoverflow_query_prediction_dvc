@@ -14,6 +14,7 @@ artifacts:
   FEATURIZED_DATA: features
   FEATURIZED_TRAIN_DATA: train.pkl
   FEATURIZED_TEST_DATA: test.pkl
+  TRANSFORMATION_SAVE: transformer.pkl
   MODEL_DIR: model
   MODEL_NAME: model.pkl
   metrics: 

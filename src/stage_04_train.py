@@ -27,12 +27,13 @@ def train(config_path, params_path):
     n_est = params["train"]["n_est"]
     min_split = params["train"]["min_split"]
     model = RandomForestClassifier(n_estimators=n_est, min_samples_split=min_split, n_jobs=2, random_state=seed)
-
     model.fit(X, labels)
-
     joblib.dump(model, model_path)
     logging.info(f"model is trained and saved at: {model_path}")
 
+    new_data=matrix[0:2,2:]
+    print(type(new_data))
+    print(model.predict(new_data))
 if __name__ == '__main__':
     args = argparse.ArgumentParser()
     args.add_argument("--config", "-c", default="config.yaml")
