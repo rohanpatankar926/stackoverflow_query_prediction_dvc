@@ -95,6 +95,7 @@ def get_df_for_predict(path_to_data: str, sep: str="\t") -> pd.DataFrame:
         names=["text"]
     )
     return df
+
 def save_matrix(df, matrix, out_path):
     id_matrix = sparse.csr_matrix(df.id.astype(np.int64)).T
     label_matrix = sparse.csr_matrix(df.label.astype(np.int64)).T

@@ -3,7 +3,7 @@ train_test:
   seed: 2122
 
 featurize:
-  max_featurize: 2500
+  max_featurize: 2200
   ngrams: 2
 
 train:
