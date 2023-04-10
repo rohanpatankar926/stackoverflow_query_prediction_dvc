@@ -1,4 +1,3 @@
-
 from typing import Union
 from batch_prediction.prediction_service import PredictionService
 from fastapi import FastAPI,Response
@@ -12,7 +11,7 @@ app = FastAPI()
 async def model():
     message="<h1>Welcome to inferencing api</h1>"
     message2="<h2>Click on the below link to get the predictions</h2>"
-    link="<a href='http://13.234.241.210:8000/predict'>Predict for Inferencing on batch data</a>"
+    link="<a href='http://43.205.53.66/predict'>Predict for Inferencing on batch data</a>"
     message=message+message2+link
     return HTMLResponse(content=message)
     
@@ -31,11 +30,11 @@ async def predict(response: Response):
     response.headers["Content-Type"] = "text/html"
     return HTMLResponse(content=table_html)
 
-@app.get("/predict_single/{text}")
-async def predict_single(text: str):
-    model_path =  f'{os.getcwd()}/artifacts/model/model.pkl'
-    transformer_path = f'{os.getcwd()}/artifacts/features/transformer.pkl'
-    prediction_service = PredictionService(model_path,transformer_path)
-    prediction = prediction_service.inference_single(text)
-    return {"prediction": prediction}
+# @app.get("/predict_single/{text}")
+# async def predict_single(text: str):
+#     model_path =  f'{os.getcwd()}/artifacts/model/model.pkl'
+#     transformer_path = f'{os.getcwd()}/artifacts/features/transformer.pkl'
+#     prediction_service = PredictionService(model_path,transformer_path)
+#     prediction = prediction_service.inference_single(text)
+#     return {"prediction": prediction}
 
